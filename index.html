@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWKHQVXP');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karry | Rápido a tu oficina</title>
+<meta name="description" content="Insumos de oficina, aseo y cafetería para empresas en Santiago. Despacho express en 24 horas en toda la RM, sin mínimos. 19 años de experiencia. Arma tu pedido y cotiza.">
+<link rel="icon" href="logo-karry.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#D92332;--red-2:#B91C3C;--wine:#7A1426;--amber:#FBBF24;--amber-2:#F59E0B;
+  --petrol:#1D2D3D;--ink:#212529;--muted:#5F6B76;--line:#E6E2E3;--soft:#F8F5F5;--white:#FFFFFF;--green:#1E8E5A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--white);color:var(--ink);font-family:'Titillium Web',Arial,sans-serif;line-height:1.55;font-size:17px;overflow-x:hidden}
+img{max-width:100%;display:block}
+button{font-family:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:76px 0}
+section[id]{scroll-margin-top:84px}
+.kicker{font-size:14px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+h2{font-size:38px;line-height:1.15;font-weight:900;color:var(--petrol);margin-bottom:14px;text-transform:uppercase}
+.lead{font-size:19px;color:var(--muted);max-width:760px;margin-bottom:36px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--amber);color:var(--petrol);text-decoration:none;font-weight:700;font-size:17px;padding:14px 28px;border-radius:10px;transition:background .15s,transform .15s;border:0;cursor:pointer;text-transform:uppercase;letter-spacing:.3px}
+.btn:hover{background:var(--amber-2);transform:translateY(-1px)}
+.btn-red{background:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-2)}
+.btn-ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.7)}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-sm{padding:10px 18px;font-size:15px}
+
+/* Marquee */
+.marquee{background:var(--petrol);color:#fff;font-size:15px;overflow:hidden;white-space:nowrap;padding:9px 0}
+.marquee .track{display:inline-flex;gap:48px;animation:mq 38s linear infinite;padding-left:48px}
+.marquee span b{color:var(--amber)}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marquee .track{animation:none}}
+
+/* Header */
+header{position:sticky;top:0;z-index:30;background:#fff;border-bottom:4px solid var(--red);box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
+.nav img{height:54px;width:auto}
+.links{display:flex;gap:22px}
+.links a{color:var(--petrol);text-decoration:none;font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.3px}
+.links a:hover{color:var(--red)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.phone{color:var(--petrol);text-decoration:none;font-weight:700;font-size:15px;white-space:nowrap}
+.cart-btn{position:relative;display:inline-flex;align-items:center;gap:8px;background:#fff;border:2px solid var(--line);border-radius:10px;padding:8px 12px;font-weight:700;color:var(--petrol);cursor:pointer}
+.cart-btn svg{width:22px;height:22px}
+.n{background:var(--amber);color:var(--petrol);border-radius:999px;min-width:22px;height:22px;padding:0 6px;font-size:13px;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+.bump{animation:bump .35s}
+@keyframes bump{50%{transform:scale(1.25)}}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--red-2) 0%,var(--wine) 100%);color:#fff;padding:70px 0 84px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-140px;top:-140px;width:460px;height:460px;border-radius:50%;background:rgba(255,255,255,.06)}
+.hero-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:center;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap:8px;background:var(--amber);color:var(--petrol);font-weight:700;font-size:14px;letter-spacing:1px;text-transform:uppercase;padding:6px 16px;border-radius:999px;margin-bottom:18px}
+h1{font-size:50px;line-height:1.08;font-weight:900;text-transform:uppercase;margin-bottom:20px}
+h1 span{color:var(--amber)}
+.hero p.sub{font-size:20px;color:rgba(255,255,255,.92);max-width:580px;margin-bottom:30px}
+.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+.hero .note{font-size:15px;color:rgba(255,255,255,.75);margin-top:14px}
+.express{background:rgba(255,255,255,.96);color:var(--ink);border-radius:20px;padding:28px;box-shadow:0 18px 40px rgba(0,0,0,.25);text-align:center}
+.express .tag{display:inline-block;background:var(--amber);color:var(--petrol);font-weight:700;font-size:13px;letter-spacing:1.5px;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.express h3{font-size:30px;font-weight:900;color:var(--petrol);text-transform:uppercase;margin:12px 0 4px}
+.express h3 span{color:var(--red)}
+.clock{display:inline-flex;align-items:baseline;gap:6px;background:var(--petrol);color:var(--amber);border-radius:14px;padding:6px 22px;margin:8px 0 6px}
+.clock b{font-size:56px;font-weight:900;line-height:1}
+.clock small{font-size:20px;font-weight:700;color:#fff}
+.express p{color:var(--muted);font-size:16px}
+.trio{display:flex;justify-content:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+.trio span{background:#FDECEE;color:var(--red);font-weight:700;font-size:13px;letter-spacing:1px;padding:5px 12px;border-radius:999px;text-transform:uppercase}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px;border-top:1px solid var(--line);padding-top:16px}
+.stats b{display:block;font-size:22px;font-weight:900;color:var(--wine);line-height:1.1}
+.stats small{font-size:13px;color:var(--muted);line-height:1.2;display:block}
+
+/* Pilares */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px}
+.card h3{font-size:21px;color:var(--petrol);margin-bottom:8px;font-weight:700;line-height:1.25}
+.card p{color:var(--muted);font-size:17px}
+.pillar{position:relative;overflow:hidden}
+.pillar .big{position:absolute;right:-6px;top:-18px;font-size:110px;font-weight:900;color:#FDECEE;line-height:1;z-index:0}
+.pillar>*{position:relative;z-index:1}
+.icon{width:48px;height:48px;border-radius:12px;background:#FDECEE;color:var(--red);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.icon svg{width:24px;height:24px}
+.pain .card{border-top:5px solid var(--red)}
+.band{background:var(--soft)}
+
+/* Calculadora */
+.calc{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:stretch}
+.ctrl{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px}
+.ctrl label{display:block;font-weight:700;color:var(--petrol);margin-bottom:6px}
+.ctrl .val{float:right;color:var(--red);font-weight:900}
+.ctrl input[type=range]{width:100%;accent-color:var(--red);margin:6px 0 22px;height:28px}
+.ctrl small{color:var(--muted);display:block;margin-top:-14px;margin-bottom:18px;font-size:14px}
+.result{background:linear-gradient(135deg,var(--petrol),#0F1B27);color:#fff;border-radius:18px;padding:30px;display:flex;flex-direction:column;justify-content:center}
+.result .lbl{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--amber);font-weight:700}
+.result .money{font-size:56px;font-weight:900;line-height:1.05;margin:6px 0}
+.result .per{color:rgba(255,255,255,.75);margin-bottom:18px}
+.bars{display:flex;flex-direction:column;gap:10px;margin-bottom:22px}
+.bar{font-size:14px}
+.bar .t{display:flex;justify-content:space-between;color:rgba(255,255,255,.85)}
+.bar .b{height:8px;background:rgba(255,255,255,.12);border-radius:99px;overflow:hidden;margin-top:4px}
+.bar .b i{display:block;height:100%;background:var(--amber);border-radius:99px;transition:width .3s}
+.result .fine{font-size:13px;color:rgba(255,255,255,.55);margin-top:12px}
+
+/* Kit */
+.kit{display:grid;grid-template-columns:360px 1fr;gap:28px;align-items:start}
+.kit .ctrl .people{font-size:64px;font-weight:900;color:var(--red);line-height:1;text-align:center}
+.kit .ctrl .people small{display:block;font-size:16px;color:var(--muted);font-weight:600;margin:4px 0 0}
+.areas{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.area{border:2px solid var(--line);border-radius:12px;padding:12px;font-weight:700;color:var(--petrol);cursor:pointer;background:#fff;text-align:left;font-size:15px}
+.area.on{border-color:var(--red);background:#FFF5F6;color:var(--red)}
+.area.on::before{content:"✓ "}
+.kitlist{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.kitlist h3{font-size:20px;color:var(--petrol);margin-bottom:4px}
+.kitlist .sub{color:var(--muted);font-size:15px;margin-bottom:12px}
+#k-list{max-height:430px;overflow:auto;padding-right:6px}
+.krow{display:grid;grid-template-columns:48px 1fr auto;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.krow em{color:var(--green);font-style:normal;font-weight:700}
+.krm{border:0;background:none;color:var(--red);font-size:13px;cursor:pointer;padding:0;text-decoration:underline;font-family:inherit}
+.kfind{position:relative;margin-bottom:8px}
+.kfind input{width:100%;padding:11px 14px;border:2px dashed var(--line);border-radius:10px;font:inherit;font-size:15px;outline:none}
+.kfind input:focus{border-color:var(--red);border-style:solid}
+.kres{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 14px 30px rgba(0,0,0,.14);z-index:15;margin-top:4px;max-height:340px;overflow:auto}
+.kres.open{display:block}
+.kres button{display:grid;grid-template-columns:40px 1fr auto;gap:10px;align-items:center;width:100%;border:0;background:#fff;padding:8px 12px;text-align:left;cursor:pointer;font-size:14px;color:var(--petrol);border-bottom:1px solid var(--line)}
+.kres button:hover{background:var(--soft)}
+.kres img{width:40px;height:40px;object-fit:contain}
+.kres b{color:var(--red);font-size:13px;white-space:nowrap}
+.kr0{padding:12px;color:var(--muted);font-size:14px}
+.krow img{width:48px;height:48px;object-fit:contain}
+.krow b{font-size:14px;color:var(--petrol);line-height:1.3;display:block}
+.krow small{color:var(--muted);font-size:12px}
+.krow .q{font-weight:900;color:var(--red);font-size:18px;white-space:nowrap}
+.kitfoot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px;flex-wrap:wrap}
+.kitfoot span{color:var(--muted);font-size:15px}
+
+/* Catálogo */
+.tabs{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.tab{border:0;background:var(--soft);color:var(--petrol);font-weight:900;font-size:15px;padding:10px 18px;border-radius:10px;cursor:pointer;text-transform:uppercase;letter-spacing:.3px}
+.tab.on{background:var(--petrol);color:#fff}
+.tab .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--amber);margin-right:6px;vertical-align:middle}
+.search{position:relative;margin-bottom:14px}
+.search input{width:100%;padding:14px 16px 14px 46px;border:2px solid var(--line);border-radius:12px;font:inherit;font-size:17px;outline:none;background:#fff}
+.search input:focus{border-color:var(--red)}
+.search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:var(--muted)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.chip{border:2px solid var(--line);background:#fff;color:var(--petrol);font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px;cursor:pointer;text-transform:uppercase;letter-spacing:.3px}
+.chip:hover{border-color:var(--red)}
+.chip.on{background:var(--red);border-color:var(--red);color:#fff}
+.chip small{opacity:.7;font-weight:600}
+.brands{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;align-items:center}
+.brands .lbl{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-right:4px}
+.brand{border:0;background:var(--soft);color:var(--petrol);font-weight:700;font-size:14px;padding:6px 12px;border-radius:8px;cursor:pointer}
+.brand:hover,.brand.on{background:var(--amber)}
+.count{color:var(--muted);font-size:15px;margin-bottom:16px}
+.reorder{display:none;align-items:center;justify-content:space-between;gap:12px;background:#FFF8E6;border:2px dashed var(--amber);border-radius:14px;padding:14px 18px;margin-bottom:18px;flex-wrap:wrap}
+.reorder.show{display:flex}
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.prod{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px;transition:box-shadow .15s,transform .15s;position:relative}
+.prod:hover{box-shadow:0 10px 26px rgba(0,0,0,.09);transform:translateY(-2px)}
+.ribbon{position:absolute;top:10px;left:10px;font-size:11px;font-weight:900;letter-spacing:1px;text-transform:uppercase;padding:3px 8px;border-radius:6px;z-index:1}
+.ribbon.new{background:var(--amber);color:var(--petrol)}
+.ribbon.top{background:var(--red);color:#fff}
+.prod .ph{height:150px;display:flex;align-items:center;justify-content:center}
+.prod .ph img{max-height:150px;width:auto;object-fit:contain}
+.prod h4{font-size:15px;line-height:1.3;color:var(--petrol);font-weight:700;min-height:39px}
+.prod .sku{font-size:13px;color:var(--muted)}
+.prod .row{display:flex;gap:8px;align-items:center;margin-top:auto}
+.qty{display:flex;align-items:center;border:2px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}
+.qty button{width:32px;height:36px;border:0;background:#fff;font-size:18px;font-weight:700;color:var(--petrol);cursor:pointer}
+.qty button:hover{background:var(--soft)}
+.qty input{width:38px;height:36px;border:0;text-align:center;font:inherit;font-weight:700;font-size:16px;-moz-appearance:textfield}
+.qty input::-webkit-outer-spin-button,.qty input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
+.add{flex:1;height:40px;border:0;border-radius:10px;background:var(--red);color:#fff;font-weight:700;font-size:14px;cursor:pointer;text-transform:uppercase}
+.add:hover{background:var(--red-2)}
+.add.ok{background:var(--green)}
+.more{display:block;margin:28px auto 0}
+.ask{grid-column:1/-1;background:var(--soft);border:2px dashed var(--line);border-radius:16px;padding:26px;text-align:center}
+.ask h3{color:var(--petrol);font-size:22px;margin-bottom:6px}
+.ask p{color:var(--muted);margin-bottom:14px}
+.ask form{display:flex;gap:10px;max-width:560px;margin:0 auto;flex-wrap:wrap}
+.ask input{flex:1;min-width:200px;padding:12px 14px;border:2px solid var(--line);border-radius:10px;font:inherit}
+
+/* Pasos / comparación */
+.num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--amber);color:var(--petrol);font-weight:900;font-size:20px;margin-bottom:14px}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.compare ul{list-style:none;margin-top:10px}
+.compare li{padding:11px 0 11px 30px;border-top:1px solid var(--line);font-size:17px;position:relative}
+.compare li:first-child{border-top:0}
+.before h3{color:var(--muted)}
+.before li::before{content:"✕";position:absolute;left:4px;color:#A0A7AE;font-weight:700}
+.after{border:2px solid var(--red);background:#FFFBFB}
+.after h3{color:var(--red)}
+.after li::before{content:"✓";position:absolute;left:4px;color:var(--red);font-weight:900}
+
+/* Despachos */
+.ship{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ship .card{text-align:center;padding:24px 18px}
+.ship .card b{display:block;font-size:30px;font-weight:900;color:var(--red);line-height:1.1;margin-bottom:6px}
+.ship .card p{font-size:15px}
+
+/* Formulario */
+.form-sec{background:linear-gradient(135deg,var(--red-2) 0%,var(--wine) 100%);color:#fff}
+.form-sec h2{color:#fff}
+.form-sec .lead{color:rgba(255,255,255,.88)}
+.form-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:44px;align-items:start}
+.form-box{background:#fff;border-radius:18px;padding:8px;min-height:540px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.form-box iframe{width:100%;border:0;display:block;min-height:520px;border-radius:12px}
+.checks{list-style:none}
+.checks li{padding:10px 0 10px 34px;position:relative;font-size:18px}
+.checks li::before{content:"✓";position:absolute;left:0;top:9px;width:24px;height:24px;border-radius:50%;background:var(--amber);color:var(--petrol);font-weight:900;font-size:14px;display:flex;align-items:center;justify-content:center}
+.pedido-note{display:none;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:12px;padding:14px 16px;margin-top:18px;font-size:16px}
+.pedido-note.show{display:block}
+.pedido-note b{color:var(--amber)}
+
+/* Footer */
+footer{background:var(--petrol);color:rgba(255,255,255,.78);padding:46px 0 26px;font-size:15px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:28px}
+footer img{height:52px;width:auto;background:#fff;border-radius:8px;padding:4px 8px;margin-bottom:12px}
+footer h4{color:#fff;text-transform:uppercase;letter-spacing:1px;font-size:15px;margin-bottom:10px}
+footer a{color:rgba(255,255,255,.78);text-decoration:none;display:block;padding:3px 0}
+footer a:hover{color:var(--amber)}
+.copy{border-top:1px solid rgba(255,255,255,.12);margin-top:30px;padding-top:18px;font-size:14px;text-align:center}
+
+/* Carrito */
+.fab{position:fixed;right:18px;bottom:18px;z-index:40;display:none;align-items:center;gap:10px;background:var(--red);color:#fff;border:0;border-radius:999px;padding:14px 20px;font-weight:700;font-size:16px;box-shadow:0 10px 26px rgba(0,0,0,.25);cursor:pointer}
+.fab.show{display:inline-flex}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;opacity:0;pointer-events:none;transition:opacity .2s}
+.overlay.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(430px,100%);background:#fff;z-index:60;transform:translateX(100%);transition:transform .25s;display:flex;flex-direction:column;visibility:hidden}
+.drawer.open{transform:none;visibility:visible;box-shadow:-10px 0 30px rgba(0,0,0,.2)}
+.dh{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:4px solid var(--red)}
+.dh h3{font-size:22px;color:var(--petrol);text-transform:uppercase;font-weight:900}
+.x{border:0;background:none;font-size:30px;line-height:1;cursor:pointer;color:var(--muted)}
+.dl{flex:1;overflow:auto;padding:8px 20px}
+.ci{display:grid;grid-template-columns:52px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.ci img,.ci .ph0{width:52px;height:52px;object-fit:contain}
+.ci .ph0{background:var(--soft);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:22px}
+.ci b{display:block;font-size:14px;line-height:1.3;color:var(--petrol)}
+.ci small{color:var(--muted);font-size:12px}
+.ci .rm{border:0;background:none;color:var(--red);font-size:13px;cursor:pointer;padding:0;margin-top:4px;text-decoration:underline}
+.df{padding:16px 20px;border-top:1px solid var(--line);background:var(--soft)}
+.df .fijo{display:flex;gap:10px;align-items:flex-start;font-size:15px;color:var(--petrol);margin-bottom:10px;cursor:pointer}
+.df .fijo input{width:20px;height:20px;accent-color:var(--red);margin-top:2px}
+.df p{font-size:13px;color:var(--muted);margin-bottom:12px}
+.df .btn{width:100%}
+.dempty{padding:40px 10px;text-align:center;color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(30px);background:var(--petrol);color:#fff;padding:12px 20px;border-radius:12px;font-weight:700;z-index:70;opacity:0;transition:all .25s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+@media (max-width:1020px){
+  .links{display:none}
+  .pgrid{grid-template-columns:repeat(3,1fr)}
+  .ship{grid-template-columns:repeat(2,1fr)}
+  .fgrid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:880px){
+  section{padding:56px 0}
+  .hero{padding:44px 0 56px}
+  .hero-grid,.form-grid,.compare,.grid3,.calc,.kit{grid-template-columns:1fr}
+  h1{font-size:36px}
+  h2{font-size:29px}
+  .nav{height:66px}
+  .nav img{height:44px}
+  .phone{display:none}
+  .cart-btn .t{display:none}
+  .nav .btn-sm{padding:9px 12px;font-size:13px}
+  .badge{font-size:12px;letter-spacing:.5px}
+  .pgrid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .prod{padding:10px}
+  .prod .ph{height:110px}.prod .ph img{max-height:110px}
+  .prod .row{flex-direction:column;align-items:stretch}
+  .qty{justify-content:space-between}.qty input{flex:1}
+  .result .money{font-size:44px}
+  .fgrid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWKHQVXP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="marquee" aria-label="Beneficios Karry"><div class="track">
+  <span>🚚 Despacho <b>gratis</b> en la RM por compras sobre $50.000</span><span>⚡ <b>Despacho express 24 hrs</b> en toda la Región Metropolitana</span><span>📦 Si está en bodega, lo recibes <b>en minutos</b></span><span>✅ <b>Sin mínimos</b>, sin papeleos</span><span>💬 Pide online, por WhatsApp o email</span><span>📞 +56 2 2325 2525</span>
+  <span>🚚 Despacho <b>gratis</b> en la RM por compras sobre $50.000</span><span>⚡ <b>Despacho express 24 hrs</b> en toda la Región Metropolitana</span><span>📦 Si está en bodega, lo recibes <b>en minutos</b></span><span>✅ <b>Sin mínimos</b>, sin papeleos</span><span>💬 Pide online, por WhatsApp o email</span><span>📞 +56 2 2325 2525</span>
+</div></div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#"><img src="logo-karry.webp" alt="Karry, rápido a tu oficina" width="440" height="224"></a>
+    <nav class="links" aria-label="Secciones">
+      <a href="#catalogo">Catálogo</a><a href="#kit">Arma tu kit</a><a href="#calculadora">Calculadora</a><a href="#despachos">Despachos</a>
+    </nav>
+    <div class="nav-r">
+      <a class="phone" href="tel:+56223252525">📞 +56 2 2325 2525</a>
+      <button class="cart-btn" type="button" data-open-cart aria-label="Ver mi pedido"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="t">Mi pedido</span><span class="n" data-cart-n>0</span></button>
+      <a class="btn btn-red btn-sm cta-principal" id="cta-nav" href="#formulario">Cotizar</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HERO: Grunt Test -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="badge">⚡ Insumos para empresas en Santiago</span>
+        <h1>Que en tu oficina nunca más se acabe el <span>tóner, el papel ni el café</span></h1>
+        <p class="sub">Karry repone tus insumos el mismo día. Pides por WhatsApp, correo o aquí mismo, sin mínimos y sin salir corriendo a comprar a la tienda de la esquina.</p>
+        <div class="ctas">
+          <a class="btn cta-principal" id="cta-hero" href="#formulario">Pedir catálogo y precios</a>
+          <a class="btn btn-ghost" href="#kit">Arma tu kit en 30 seg</a>
+        </div>
+        <p class="note">Sin costo y sin compromiso. Te respondemos en menos de 2 horas hábiles.</p>
+      </div>
+      <div class="express" aria-label="Despacho express">
+        <span class="tag">Nuevo beneficio</span>
+        <h3>Despacho <span>express</span></h3>
+        <div class="clock"><b>24</b><small>HRS</small></div>
+        <p>En toda la Región Metropolitana</p>
+        <div class="trio"><span>Rápido</span><span>Seguro</span><span>A tu puerta</span></div>
+        <div class="stats">
+          <div><b>+19</b><small>años de experiencia</small></div>
+          <div><b>543</b><small>productos en catálogo</small></div>
+          <div><b>$0</b><small>despacho sobre $50.000</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILARES -->
+  <section>
+    <div class="wrap">
+      <p class="kicker">La solución integral para tu oficina</p>
+      <h2>Más de 19 años entendiendo lo que necesitas</h2>
+      <p class="lead">No somos solo papelería: somos el proveedor que conoce tu edificio, tus tiempos y tu forma de trabajar.</p>
+      <div class="grid3">
+        <div class="card pillar"><span class="big">01</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><h3>Despacho express</h3><p>Si está en nuestra bodega, lo recibes en minutos y sin costo adicional. Conocemos tu edificio y tus tiempos.</p></div>
+        <div class="card pillar"><span class="big">02</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12"/></svg></div><h3>Más que papelería</h3><p>Desde resmas y tóner hasta artículos de aseo y cafetería. Si no lo tenemos, lo conseguimos para ti.</p></div>
+        <div class="card pillar"><span class="big">03</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>Flexibilidad total</h3><p>Haz tu pedido online, por WhatsApp o email. Sin mínimos, sin papeleos. Nos adaptamos 100% a tu flujo de trabajo.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOLOR -->
+  <section class="pain band">
+    <div class="wrap">
+      <p class="kicker">El problema</p>
+      <h2>¿Te suena alguno de estos días?</h2>
+      <p class="lead">Cuando falta un insumo, el problema no es el producto. Es el tiempo que pierdes, lo que pagas de más y las explicaciones que das.</p>
+      <div class="grid3">
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></div><h3>El tóner se acaba en pleno cierre de mes</h3><p>El proveedor despacha en 48 a 72 horas y nadie se acordó de reponer a tiempo.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg></div><h3>Sales a comprar a la tienda de al lado</h3><p>Pagas más caro, pierdes la mañana y ni siquiera sabes cuánto se fue de más.</p></div>
+        <div class="card"><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><h3>Tu jefatura te pregunta qué pasó</h3><p>Llega un cliente a reunión y no hay café ni papel. El costo lo pagas tú frente al equipo.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULADORA COI -->
+  <section id="calculadora">
+    <div class="wrap">
+      <p class="kicker">Calculadora</p>
+      <h2>¿Cuánto te cuesta quedarte sin stock?</h2>
+      <p class="lead">Ese costo casi nunca se ve en la factura, pero se paga igual. Mueve los controles y mira cuánto pierde tu empresa al año.</p>
+      <div class="calc">
+        <div class="ctrl">
+          <label for="c-q">Veces al mes que se acaba algo <span class="val" id="v-q">2</span></label>
+          <input type="range" id="c-q" min="0" max="8" value="2">
+          <label for="c-p">Personas que se detienen cuando falta <span class="val" id="v-p">2</span></label>
+          <input type="range" id="c-p" min="1" max="15" value="2">
+          <label for="c-c">Compra de emergencia promedio <span class="val" id="v-c">$45.000</span></label>
+          <input type="range" id="c-c" min="10000" max="150000" step="5000" value="45000">
+          <small>Supuestos: 30% de sobreprecio en compras de emergencia, 3 horas de gestión por quiebre (valor hora $5.500), 1 hora detenida por persona (valor hora $9.000) y $15.000 de riesgo por quiebre.</small>
+        </div>
+        <div class="result" aria-live="polite">
+          <span class="lbl">Tu costo de no hacer nada</span>
+          <div class="money" id="r-year">$1.512.000</div>
+          <div class="per">al año · <b id="r-month">$126.000</b> al mes</div>
+          <div class="bars" id="r-bars"></div>
+          <a class="btn cta-calc" href="#kit">Evítalo con un pedido fijo mensual</a>
+          <p class="fine">Estimación referencial basada en supuestos de mercado. No incluye el valor de los productos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KIT -->
+  <section id="kit" class="band">
+    <div class="wrap">
+      <p class="kicker">Nuevo · Arma tu oficina</p>
+      <h2>Tu pedido mensual en 30 segundos</h2>
+      <p class="lead">Dinos cuántas personas trabajan en tu oficina y qué áreas quieres cubrir. Te armamos un pedido sugerido con productos reales del catálogo. Después lo ajustas como quieras.</p>
+      <div class="kit">
+        <div class="ctrl">
+          <div class="people" id="k-n">10<small>personas en la oficina</small></div>
+          <input type="range" id="k-r" min="2" max="150" value="10" aria-label="Personas en la oficina">
+          <label>Áreas a cubrir</label>
+          <div class="areas" id="k-areas"></div>
+        </div>
+        <div class="kitlist">
+          <h3>Pedido sugerido para <span id="k-t">10 personas</span></h3>
+          <p class="sub">Cantidades mensuales estimadas. Súmale, réstale o quita lo que no necesites. <button type="button" id="k-reset" class="krm" style="display:none">Volver al sugerido</button></p>
+          <div class="kfind"><input id="k-q" type="search" placeholder="+ Suma otro producto al kit: busca resma, cloro, café..." autocomplete="off" aria-label="Buscar producto para el kit"><div class="kres" id="k-res"></div></div>
+          <div id="k-list"></div>
+          <div class="kitfoot"><span id="k-sum"></span><button class="btn btn-red" id="k-add" type="button">Agregar kit al pedido</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo">
+    <div class="wrap">
+      <p class="kicker">Catálogo completo</p>
+      <h2>Arma tu pedido</h2>
+      <p class="lead">543 productos de oficina, aseo, cafetería y bebidas. Agrega lo que necesitas y te enviamos la cotización con tus precios en menos de 2 horas hábiles.</p>
+      <div class="reorder" id="reorder"><span>🔁 <b>¿Repetimos tu último pedido?</b> <span id="reorder-t"></span></span><button class="btn btn-sm" id="reorder-b" type="button">Cargar último pedido</button></div>
+      <div class="tabs" id="tabs"></div>
+      <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><input id="q" type="search" placeholder="Busca por nombre, marca o SKU: resma, Nescafé, cloro..." autocomplete="off" aria-label="Buscar productos"></label>
+      <div class="chips" id="chips"></div>
+      <div class="brands" id="brands"><span class="lbl">Marcas</span></div>
+      <p class="count" id="count"></p>
+      <div class="pgrid" id="grid"></div>
+      <button class="btn btn-red more" id="more" type="button">Ver más productos</button>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section class="band">
+    <div class="wrap">
+      <p class="kicker">Cómo funciona</p>
+      <h2>Tres pasos y tu oficina queda abastecida</h2>
+      <p class="lead">Sin planillas, sin cotizar a tres proveedores y sin compras de emergencia.</p>
+      <div class="grid3">
+        <div class="card"><span class="num">1</span><h3>Armas tu pedido</h3><p>Aquí, por WhatsApp o por correo. Una foto de la caja vacía basta. Si no lo tenemos, lo conseguimos.</p></div>
+        <div class="card"><span class="num">2</span><h3>Te cotizamos al tiro</h3><p>Precio, stock y hora de entrega en menos de 2 horas hábiles. Una sola factura ordenada para tu rendición.</p></div>
+        <div class="card"><span class="num">3</span><h3>Llega a tu puerta</h3><p>Despacho express en 24 horas en toda la RM, o en minutos si está en bodega. Y si quieres, lo repetimos cada mes.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANTES / DESPUÉS -->
+  <section>
+    <div class="wrap">
+      <p class="kicker">La diferencia</p>
+      <h2>Lo que cambia en tu semana</h2>
+      <p class="lead">Un solo proveedor que te conoce, para todo lo que tu oficina consume.</p>
+      <div class="compare">
+        <div class="card before"><h3>Hoy</h3><ul>
+          <li>Planilla de stock que alguien olvida actualizar</li><li>Despacho en 48 a 72 horas</li><li>Compras de emergencia con sobreprecio</li><li>Varias facturas y boletas por mes</li><li>Call center que no conoce tu cuenta</li></ul></div>
+        <div class="card after"><h3>Con Karry</h3><ul>
+          <li>Pedido fijo mensual que se repone solo</li><li>Despacho express en 24 horas en la RM</li><li>Sin mínimos de compra ni papeleos</li><li>Una factura consolidada al mes</li><li>Un contacto directo que conoce tus pedidos</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESPACHOS -->
+  <section id="despachos" class="band">
+    <div class="wrap">
+      <p class="kicker">Envíos y despachos</p>
+      <h2>Rápido, seguro y a tu puerta</h2>
+      <p class="lead">Despachamos en toda la Región Metropolitana. Para regiones, consúltanos por envíos.</p>
+      <div class="ship">
+        <div class="card"><b>24 hrs</b><p>Despacho express en toda la Región Metropolitana</p></div>
+        <div class="card"><b>Minutos</b><p>Si está en nuestra bodega, sin costo adicional</p></div>
+        <div class="card"><b>$0</b><p>Despacho gratis en la RM por compras sobre $50.000</p></div>
+        <div class="card"><b>Regiones</b><p>Consulta por envíos a tu región al +56 2 2325 2525</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO (Fillout) -->
+  <section class="form-sec" id="formulario">
+    <div class="wrap form-grid">
+      <div>
+        <p class="kicker" style="color:var(--amber)">Sin costo</p>
+        <h2>Recibe tu cotización</h2>
+        <p class="lead">Déjanos tus datos y te enviamos el catálogo con precios para tu empresa en menos de 2 horas hábiles.</p>
+        <ul class="checks">
+          <li>Sin costo y sin compromiso</li>
+          <li>Precios según tu volumen mensual</li>
+          <li>Opción de pedido fijo para no quedarte sin stock</li>
+          <li>Despacho gratis en la RM sobre $50.000</li>
+        </ul>
+        <div class="pedido-note" id="pedido-note"></div>
+      </div>
+      <div class="form-box" id="form-box"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><img src="logo-karry.webp" alt="Karry" width="440" height="224"><p>La solución integral para los insumos de tu oficina. Rápido, flexible y con más de 19 años de experiencia atendiendo a empresas como la tuya.</p></div>
+      <div><h4>Información</h4><a href="#despachos">Envíos y despachos</a><a href="#catalogo">Catálogo</a><a href="#kit">Arma tu kit</a><a href="#calculadora">Calculadora de costos</a></div>
+      <div><h4>Mi cuenta</h4><a href="https://karry.cl/login" target="_blank" rel="noopener">Iniciar sesión</a><a href="https://karry.cl/login" target="_blank" rel="noopener">Historial de pedidos</a><a href="https://karry.cl/login" target="_blank" rel="noopener">Estado de mi pedido</a></div>
+      <div><h4>Servicio al cliente</h4><a href="tel:+56223252525">📞 +56 2 2325 2525</a><a href="#formulario">Recibe nuestras ofertas y promociones para empresas</a></div>
+    </div>
+    <p class="copy">Copyright © 2026 Karry. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<button class="fab" id="fab" type="button" data-open-cart><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>Mi pedido <span class="n" data-cart-n>0</span></button>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Mi pedido">
+  <div class="dh"><h3>Mi pedido</h3><button class="x" id="close" type="button" aria-label="Cerrar">×</button></div>
+  <div class="dl" id="dlist"></div>
+  <div class="df">
+    <label class="fijo"><input type="checkbox" id="fijo"> <span><b>Repetir este pedido cada mes</b><br><small>Lo reponemos automáticamente y te olvidas de la planilla.</small></span></label>
+    <p>Los precios dependen de tu volumen. Te enviamos la cotización en menos de 2 horas hábiles.</p>
+    <button class="btn" id="checkout" type="button">Solicitar cotización</button>
+  </div>
+</aside>
+<div class="toast" id="toast"></div>
+
+<script>
+var KARRY={"c":["ESCRITORIO Y OFICINA","BEBIDAS AGUAS JUGOS","ASEO Y LIMPIEZA","CAFETERIA","ABARROTES","PAPELERIA","COMPUTACION"],"p":[[4,"ACEITE CHEF MARAVILLA 1L (X1)","301299","aceite-chef-maravilla-1l-x1-6915d4312834f.jpg"],[4,"ACEITE CHEF OLIVA EXTRA-VIRGEN 1L (X1)","301306","01KA4BQN58MCEGXXYTXGJB0YS3.jpg"],[4,"ACEITE KARDAMILI OLIVA EXTRA-VIRGEN 1L (X1)","8000164","aceite-kardamili-oliva-extra-virgen-1l-x1-6915d4327460d.png"],[4,"ACEITE KARDAMILI OLIVA EXTRA-VIRGEN 500CC (X1)","800010","aceite-kardamili-oliva-extra-virgen-500cc-x1-6915d432bc4d8.jpg"],[4,"ACEITE OLIVA SOL DE ACULEO EXTRA-VIRGEN 1L (X1)","5601","01KA49VR3GE56KTT34CKM5KRNG.jpg"],[4,"ACEITE OLIVA SOL DE ACULEO EXTRA-VIRGEN 500CC (X1)","81106","01KA4DA50G0E1EMBGKZ8J11C63.jpg"],[4,"ACEITE OLIVA SOL DE ACULEO EXTRA-VIRGEN 5L (X1)","301302","01KA4DNRD5KY8QW9XB2NFNXCS5.jpg"],[4,"ACETO BALSAMICO KARDAMILI 250CC (X1)","800140","aceto-balsamico-kardamili-250cc-x1-6915d4334f28a.jpg"],[4,"ACETO BALSAMICO KARDAMILI 500CC (X1)","800157","aceto-balsamico-kardamili-500cc-x1-6915d433d5af5.jpg"],[4,"ARROZ TUCAPEL G1 GRAN SELECCION 1K (X1)","250142","arroz-tucapel-g1-gran-seleccion-1k-x1-6915d43acbba8.png"],[4,"DE TODITO EVERCRISP ORIGINAL 64G (X1)","3462","01M2137KMKW2K9NM3WWEDBST1F.jpg"],[4,"JUGO LIMON TRAVERSO 500CC (X1)","80103","jugo-limon-traverso-500cc-x1-6915d4344ab14.jpg"],[4,"KETCHUP JB PET 240G (X1)","355","ketchup-jb-pet-240g-x1-6915d434b58a9.jpg"],[4,"MAYONESA KRAFT 789G (X1)","26326","mayonesa-kraft-800g-x1-6915d43550f74.jpg"],[4,"MAYONESA KRAFT LIGHT 800G (X1)","2633","mayonesa-kraft-light-800g-x1-6915d43628ba3.jpg"],[4,"MOSTAZA JB PET 240G (X1)","400287","mostaza-jb-pet-240g-x1-6915d437b9d81.JPG"],[4,"PAPAS LAYS CLASICA AMERICANA 22G (X1)","10231","papas-lays-clasica-americana-42g-x1-6915d43b66401.jpeg"],[4,"RAMITAS EVERCRIPS 40G (X1)","3479","ramitas-evercrips-queso-42g-x1-6915d43c02847.jpg"],[4,"SAL BIOSAL SALERO 500G (X1)","700076","sal-biosal-salero-500g-x1-6915d440c757b.jpg"],[4,"SAL LOBOS MESA BOLSA 1K (X1)","31275","sal-lobos-mesa-bolsa-1k-x1-6915d441982d8.png"],[4,"SAL LOBOS SALERO 500G (X1)","981525","sal-lobos-salero-500g-x1-6915d442b56b4.jpg"],[4,"VINAGRE TRAVERSO MANZANA 500CC (X1)","2302","vinagre-traverso-manzana-500cc-x1-6915d4382a4e0.jpg"],[4,"VINAGRE TRAVERSO VINO BLANCO 500CC (X1)","101039","vinagre-traverso-vino-blanco-500cc-x1-6915d438acef2.png"],[4,"VINAGRE TRAVERSO VINO ROSADO 500CC (X1)","101046","vinagre-traverso-vino-rosado-500cc-x1-6915d4391faf7.jpg"],[2,"ABRILLANTADOR BRILLEX PISO FLOTANTE 900CC (X1)","281231","abrillantador-brillex-flotante-chocolate-900cc-x1-6915d47b3e05d.jpg"],[2,"ALCOHOL GEL BUENA VISTA 250CC (X1)","1005321","alcohol-gel-buena-vista-250cc-x1-6915d5fa51b3b.jpeg"],[2,"ALCOHOL GEL VIRUTEX DOSIFICADOR 1L (X1)","206866","alcohol-gel-virutex-dosificador-1l-6915d5fd787ea.jpeg"],[2,"ALCOHOL WINKLER 70% 5L (X1)","200423","01KA9W949MB4HSR36W708EJKXV.jpg"],[2,"ALCOHOL WINKLER 70% DESNATURALIZADO 1L (X1)","200420","01KA9W2BVC4S4PC541Z01Z954G.jpg"],[2,"AMONIO CUATERNARIO WINKLER 1L (X1)","235252","amonio-cuaternario-winkler-1l-x1-6915d609799bc.jpg"],[2,"AMONIO CUATERNARIO WINKLER 5L (X1)","235254","amonio-cuaternario-winkler-5l-x1-6915d60a4471d.jpg"],[2,"ANTIGRASA BRILLEX EXCELL GATILLO 500CC (X1)","20000937","antigrasa-brillex-excell-gatillo-500cc-x1-6915d4541f906.jpg"],[2,"ANTIGRASA MR.MUSCULO 500CC (X1)","986030","antigrasa-mrmusculo-500cc-x1-6915d454e27a7.png"],[2,"BOLSA BASURA DPS 50X70 (X10)","DPS5070","bolsa-basura-dps-50x70-x10-6915d455bc4e1.jpg"],[2,"BOLSA BASURA DPS 70X90 (X10)","DPS7090","bolsa-basura-dps-70x90-x10-6915d45636e6b.jpg"],[2,"BOLSA BASURA DPS 80X110 (X10)","DPS80110","bolsa-basura-dps-80x110-x10-6915d456a1c10.jpg"],[2,"BOLSA BASURA IMPEKE ROLLO 50X70 (X10)","1100790","01M23CXH59B6MQ7K0JD19123Q7.jpg"],[2,"BOLSA BASURA SUPERIOR ROLLO 110X120 (X5)","1101828","01KBGC0CYQT7VA3MJ8CYT5SRVP.jpeg"],[2,"BOLSA BASURA VIRUTEX C/ALAS ROLLO 50X65","1101823","01M23CAPX2V4WRYVC32WJBSK11.jpg"],[2,"BOLSA BASURA VIRUTEX ROLLO 70X90 (X10)","1101825","bolsa-basura-virutex-rollo-70x90-x10-6915d5f86b0a2.png"],[2,"BOLSA BASURA VIRUTEX ROLLO 80X110 (X10)","1101826","bolsa-basura-virutex-rollo-80x110-x10-6915d5f8cc90e.jpg"],[2,"CERA BRILLEX AUTOBRILLO INCOLORA 900CC (X1)","45004","cera-brillex-autobrillo-incolora-900cc-6915d614ccb39.jpg"],[2,"CERA VIRGINIA LIQUIDA INCOLORA AUTOBRILLO 900CC (X1)","1078","cera-virginia-liquida-incolora-autobrillo-900cc-x1-6915d45cbb9b5.jpg"],[2,"CLORO CLORINDA TRADICIONAL 1L (X1)","1002888","01KC9ZQZNYJGTQR36K30031AND.jpg"],[2,"CLORO CLOROX TRADICIONAL 1L (X1)","11000","cloro-clorox-tradicional-1l-x1-6915d45e7014d.jpg"],[2,"CLORO CLOROX TRADICIONAL 4KG (X1)","10118","cloro-clorox-tradicional-4kg-x1-6915d45ed7131.jpg"],[2,"CLORO WINKLER 5L (X1)","202150","cloro-winkler-5l-x1-6915d60c2f439.jpg"],[2,"CLOROGEL BRILLEX 5L (X1)","367","clorogel-brillex-5l-x1-6915d60d221af.jpg"],[2,"CLOROGEL BRILLEX 900CC (X1)","1913","clorogel-brillex-floral-900cc-x1-6915d6074d0a0.jpg"],[2,"CLOROGEL IMPEKE 900CC (X1)","1002217","01M23FFGS2RHT4YJFE9CMF6RZT.jpg"],[2,"DESINFECTANTE CLOROX ANTIHONGO GATILLO 500C (X1)","6217","desinfectante-clorox-antihongo-gatillo-500c-x1-6915d4631fe52.jpg"],[2,"DESINFECTANTE LYSOFORM BANO PASTILLA AZUL (X3)","484","desinfectante-lysoform-bano-pastilla-azul-x3-6915d4647a6a6.jpg"],[2,"DESODORANTE AMBIENTAL AROM 360G (X1)","606","desodorante-ambiental-arom-citrico-360g-x1-6915d468c2f44.jpg"],[2,"DESODORANTE AMBIENTAL GLADE 291G (X1)","988454","desodorante-ambiental-glade-291g-x1-6915d46a84b77.jpg"],[2,"DESODORANTE AMBIENTAL LYSOFORM AIRE MONTANA 257CC (X1)","986795","desodorante-ambiental-lysoform-aire-montana-257cc-x1-6915d469990dd.jpg"],[2,"DESODORANTE AMBIENTAL LYSOFORM BEBE 257CC (X1)","986801","desodorante-ambiental-lysoform-bebe-257cc-x1-6915d46c2ac9c.jpg"],[2,"DESODORANTE AMBIENTAL LYSOFORM CITRICO 257CC (X1)","1250039","desodorante-ambiental-lysoform-citrico-257cc-x1-6915d46529622.jpg"],[2,"DESODORANTE AMBIENTAL LYSOFORM LAVANDA 257CC (X1)","446","desodorante-ambiental-lysoform-lavanda-257cc-x1-6915d46d445f3.jpg"],[2,"DESODORANTE AMBIENTAL LYSOFORM ORIGINAL 257G (X1)","170201","desodorante-ambiental-lysoform-original-257g-x1-6915d46da9270.jpg"],[2,"DESODORANTE AMBIENTAL POETT 220G (X1)","36478","desodorante-ambiental-poett-220g-x1-6915d46e885a7.jpg"],[2,"ESCOBA PAJA RAPAL (X1)","3016","escoba-paja-rapal-x1-6915d606ddbc3.jpg"],[2,"ESCOBILLON VIRUTEX BASICO PRO (X1)","1101706","escobillon-virutex-basico-pro-x1-6915d46f1ac61.jpg"],[2,"ESPONJA VIRUTEX LAVALOZA AMARILLA (X1)","1100754","esponja-virutex-lavaloza-amarilla-x1-6915d470c9951.jpg"],[2,"ESPONJA VIRUTEX MULTIUSO SPUNITA (X1)","100361","esponja-virutex-multiuso-spunita-x1-6915d47120d33.jpg"],[2,"FILM ALUPLAST CLASICO 30M (X1)","50417","film-aluplast-clasico-30m-x1-6915d43c70398.jpg"],[2,"FILM GENERICO PALETIZADOR 45X300M (X1)","108246","film-generico-paletizador-45x300m-x1-6915d5fad9cc9.jpg"],[2,"GUANTE VIRUTEX-IMPEKE AMARILLO LARGE (X1)","1200057","guante-virutex-amarillo-large-x1-6915d47433715.jpg"],[2,"GUANTE VIRUTEX-IMPEKE AMARILLO MEDIUM (X1)","574","guante-virutex-amarillo-medium-x1-6915d474b9c3e.jpg"],[2,"GUANTE VIRUTEX-IMPEKE AMARILLOS SMALL (X1)","1100823","guante-virutex-amarillos-small-x1-6915d5f93d3a5.jpg"],[2,"INSECTICIDA RAID CASA-JARDIN 313G (X1)","986153","insecticida-raid-casa-jardin-313g-x1-6915d43f0a472.jpg"],[2,"INSECTICIDA RAID MAX ARAÑAS 230G (X1)","982100","insecticida-raid-max-aranas-230g-x1-6915d43e95158.jpg"],[2,"JABON BALLERINA HIPOALERGENICO DP 650CC (X1)","604313","jabon-ballerina-hipoalergenico-dp-1l-x1-6915d47573479.jpg"],[2,"JABON BRILLEX LIQUIDO 5L (X1)","200774","jabon-brillex-liquido-5l-x1-6915d475bcd9b.jpg"],[2,"JABON DOVE CREMOSO 700CC (X1)","166885","jabon-dove-cremoso-700cc-x1-6915d4762d1e8.jpg"],[2,"LAVALOZA BRILLEX DESINFECTANTE 5L (X1)","200705","01KCRY62EGFEQDQMZQ2X815RZB.jpg"],[2,"LAVALOZA BRILLEX DESINFECTANTE 750CC (X1)","290123","01KCRYCTNXHTZBT4SGE3Q6Q9J7.jpg"],[2,"LAVALOZA QUIX LIMON 750CC (X1)","115913","lavaloza-quix-limon-750cc-x1-6915d47a28602.jpg"],[2,"LIMPIA SANITARIO VIRUTEX C/BASE CLASICO (X1)","901173","01KCSBQ14KNFP6MHZMGWTVA3B6.jpg"],[2,"LIMPIA SANITARIO VIRUTEX ESQUINERO (X1)","10054","01KCSC89J2WHHS3T67VWYB5TTS.jpg"],[2,"LIMPIADOR BANO HARPIC POWER PLUS 750CC (X1)","51119","limpiador-bano-harpic-power-plus-750cc-x1-6915d48041dc9.jpg"],[2,"LIMPIADOR BANO HARPIC SARRO 750CC (X1)","50945","limpiador-bano-harpic-sarro-750cc-x1-6915d47ec2fed.jpg"],[2,"LIMPIADOR CREMA BRILLEX 750CC (X1)","794","limpiador-crema-brillex-750cc-x1-6915d60c94f39.jpg"],[2,"LIMPIADOR CREMA CIF 500CC (X1)","421","limpiador-crema-cif-500cc-x1-6915d47aa9485.jpg"],[2,"LIMPIADOR PISO BRILLEX 5L (X1)","200712","limpiador-piso-brillex-5l-x1-6915d47e17d67.jpg"],[2,"LIMPIADOR PISO BRILLEX 900CC (X1)","363641","limpiador-piso-brillex-900cc-x1-6915d47e5d71c.jpeg"],[2,"LIMPIADOR PISO FLOTANTE BRILLEX 900CC (X1)","229132","limpiador-piso-flotante-brillex-900cc-x1-6915d47c9c2ed.png"],[2,"LIMPIAVIDRIO BRILLEX MULTIUSO BIDON 5L (X1)","20000503","multiuso-brillex-limpiavidrio-bidon-5-litros-x1-6915d60470ad5.jpg"],[2,"LIMPIAVIDRIO BRILLEX MULTIUSO GATILLO 500CC (X1)","219510","multiuso-brillex-limpiavidrio-gatillo-500cc-x1-6915d485d7c33.jpg"],[2,"LUSTRAMUEBLE BLEM SPRAY 360CC (X1)","984357","01KD3QXGMQ87XNYX3HSH7VE1YZ.jpg"],[2,"LUSTRAMUEBLE BRILLEX 500CC (X1)","2033","lustramueble-brillex-500cc-x1-6915d60d6b61b.jpg"],[2,"LUSTRAMUEBLE VIRGINIA CREMA 500CC (X1)","313133","lustramueble-virginia-crema-500cc-x1-6915d48573aad.jpg"],[2,"LUSTRAMUEBLE VIRGINIA SPRAY 360CC (X1)","313904","lustramueble-virginia-spray-360cc-x1-6915d4850fd3b.jpg"],[2,"MASCARILLA DEYSA 3 PLIEGUES (X50)","900510","mascarilla-3-pliegues-deysa-celeste-x50-6915d60935d64.jpg"],[2,"MASCARILLA DEYSA KN95 (X10)","900508","mascarilla-kn95-x1-6915d604d6ef2.jpg"],[2,"MOPA VIRUTEX ALGODON REPUESTO 16OZ (X1)","602199","mopa-virutex-algodon-repuesto-16-oz-6915d6123be6f.jpg"],[2,"MOPA VIRUTEX ALGODON REPUESTO CLASICA (X1)","14946","mopa-virutex-algodon-repuesto-clasica-x1-6915d49cbd336.jpg"],[2,"MOPA VIRUTEX ALGODON REPUESTO EXTRA (X1)","602198","mopa-virutex-algodon-repuesto-extra-6915d6158749f.jpg"],[2,"PALA VIRUTEX PLASTICA MANGO FIJO (X1)","13031","01KD5Q63HNXX94B1XYRCKTXKSR.jpg"],[2,"PANO ESPONJA VIRUTEX FIBRA - ABRASIVA (X1)","100440","pano-esponja-virutex-abrasiva-x1-6915d48761553.jpg"],[2,"PANO ESPONJA VIRUTEX SPONGI (X3)","5029","01M4ED2KES22ZCWM4K0J3JYT4V.jpg"],[2,"PANO MULTIUSO VIRUTEX ULTRA (X1)","1100750","pano-multiuso-virutex-ultra-x1-6915d488b3abe.jpeg"],[2,"PANO SACUDIR VIRUTEX NARANJO 50X45 (X1)","14090","pano-sacudir-virutex-naranjo-50x45-x1-6915d48925a69.jpg"],[2,"PANO VIRUTEX MICROFIBRA (X1)","1403","pano-virutex-microfibra-x1-6915d608e75c4.png"],[2,"PANUELOS FACIAL ELITE CAJA 21X14CM (X90)","16509","panuelos-facial-elite-caja-21x14cm-x50-6915d4898dfc8.png"],[2,"PAPEL ALUMINIO ALUFOIL 71/2M (X1)","150172","papel-aluminio-alufoil-712m-x1-6915d43e2edb7.jpg"],[2,"PAPEL HIGIENICO ELITE  UNA HOJA BLANCO 500M 4U (X1)","52091","01KD5TF00V4B6FH493ENX7FSM0.jpg"],[2,"PAPEL HIGIENICO ELITE DH 50M 4U (X1)","9226","01KD5VBN0MRPHBB2A86ZMXSAHN.jpg"],[2,"PAPEL HIGIENICO ELITE DOBLE HOJA 40M 18U (X1)","46225","01KD5TQV9ZFXQT5NH3V6TX3FXD.jpg"],[2,"PAPEL HIGIENICO ELITE DOBLE HOJA EXTRA BLANCO 250M 6U (X1)","426","papel-higienico-elite-doble-hoja-extra-blanco-250m-x6-6915d48d17f4b.jpg"],[2,"PLUMERO VIRUTEX ELECTROSTATICO (X1)","10085","plumero-virutex-electrostatico-x1-6915d470579c6.jpg"],[2,"SERVILLETA ELITE COCTAIL (X50)","854514","servilleta-elite-coctail-x50-6915d495938b9.jpg"],[2,"SERVILLETA ELITE MESA (X50)","854522","servilleta-elite-mesa-x50-6915d494d749e.jpg"],[2,"TOALLA PAPEL ELITE INTERFOLIADA DOBLE HOJA 21CM-200H (X1)","40811","toalla-papel-elite-interfoliada-doble-hoja-21cm-200h-x1-6915d49b4b439.jpg"],[2,"TOALLA PAPEL ELITE JUMBO DOBLE HOJA EXTRA BLANCO 200M (X2)","4237","toalla-papel-elite-jumbo-doble-hoja-extra-blanco-200m-x2-6915d499023ff.jpg"],[2,"TOALLA PAPEL NOVA 24M (X2)","40782","01KESJHVVF9SDVFP8FADXW15CS.jpg"],[2,"TOALLAS DESINFECTANTES CLOROX (X35)","901690","toallas-desinfectantes-clorox-x35-6915d49605c86.jpg"],[2,"TOALLAS DESINFECTANTES VIRUTEX (X35)","1400734","toallas-desinfectantes-virutex-x35-6915d5fb4b286.jpg"],[2,"TOALLAS DESINFECTANTES VIRUTEX (X50)","1100739","toallas-desinfectantes-virutex-x50-6915d6132c8c0.jpg"],[2,"TRAPERO BRILLEX  HUMEDO OJAL DESINFECTANTE 40X60 (X10)","1100745","01KH1CJQ7RBXZTNE5PCQW6DH8C.jpg"],[2,"TRAPERO BRILLEX  HUMEDO PISO FLOTANTE 40X60 (X10)","1100777","01KH1CN33F0MM6BF30J9YHAZ4V.jpg"],[2,"TRAPERO BRILLEX EXCELL MICROFIBRA 50X60","21548","trapero-brillex-excell-microfibra-50x60-6915d611b0390.jpg"],[2,"TRAPERO VIRUTEX ALGODON DOBLE-OJAL 45X50 (X1)","1401","trapero-virutex-algodon-doble-ojal-45x50-x1-6915d49e41b8b.jpg"],[2,"TRAPERO VIRUTEX ALGODON SIMPLE-OJAL 50X50 (X1)","1402","trapero-virutex-algodon-simple-ojal-50x50-x1-6915d49ec4fbb.jpg"],[1,"AF DAMASCO LIGHT PET 1.5L (X6)","4324","af-damasco-light-pet-15l-x6-6915d5dbe05ce.jpg"],[1,"AF DURAZNO BA 300CC (X6)","3412","af-durazno-ba-300cc-x6-6915d5d27bbd4.jpg"],[1,"AF DURAZNO LIGHT PET 1.5L (X6)","4355","af-durazno-light-pet-15l-x6-6915d5dc51b35.jpg"],[1,"AF DURAZNO PET 1.5L (X6)","4314","af-durazno-pet-15l-x6-6915d5e595108.jpg"],[1,"AF FRUTILLA PET 1.5L (X6)","4215","af-frutilla-pet-15l-6915d5db7af00.jpg"],[1,"AF NARANJA BA 300CC (X15)","3302","af-naranja-ba-300cc-x15-6915d5d4bc96f.jpg"],[1,"AF NARANJA LIGHT PET 1.5L (X6)","4224","af-naranja-light-pet-15l-x6-6915d5dd44668.jpg"],[1,"AF NARANJA PET 1.5L (X6)","4204","af-naranja-pet-15l-x6-6915d5e5e247a.jpg"],[1,"AF PINA BA 300CC (X6)","3312","af-pina-ba-300cc-x6-6915d5d5ec585.jpg"],[1,"AF PINA LIGHT PET 1.5L (X6)","4216","af-pina-light-pet-15l-x6-6915d5de14ac6.jpg"],[1,"AF PINA PET 1.5L (X6)","4214","af-pina-pet-15l-x6-6915d5ded536e.jpg"],[1,"AGUA TONICA LATA 350CC (X6)","1721","agua-tonica-lata-350cc-x24-6915d56bdecc4.jpg"],[1,"AGUA TONICA LIGTH LATA 310CC (X6)","1760","agua-tonica-ligth-lata-350cc-x24-6915d56c4cbf8.jpg"],[1,"BENEDICTINO CG PET 1.5L (X6)","2900","benedictino-cg-pet-15l-x6-6915d444114f9.jpg"],[1,"BENEDICTINO CG PET 500CC (X12)","2950","benedictino-cg-pet-500cc-x12-6915d44a2dae4.jpg"],[1,"BENEDICTINO SG 6L (X1)","2946","benedictino-sg-6l-x1-6915d44d923de.jpg"],[1,"BENEDICTINO SG PET 1.5L (X6)","2902","benedictino-sg-pet-15l-x6-6915d4456e358.jpg"],[1,"BENEDICTINO SG PET 500CC (X12)","2952","benedictino-sg-pet-500cc-x12-6915d44a90478.jpg"],[1,"BILZ LATA 350CC (X6)","1340","bilz-lata-350cc-x24-6915d56cafb89.jpg"],[1,"CACHANTUN CG PET 1.6L (X6)","4714","cachantun-cg-pet-16l-x6-6915d445d286a.jpg"],[1,"CACHANTUN CG PET 500CC (X12)","4918","cachantun-cg-pet-500cc-x12-6915d44af21ad.jpg"],[1,"CACHANTUN LG PET 1.6L (X6)","4976","cachantun-lg-pet-16l-x6-6915d44641073.jpg"],[1,"CACHANTUN MAS CITRUS PET 1.5L (X6)","1589","cachantun-mas-citrus-pet-15l-x6-6915d44e1f679.jpg"],[1,"CACHANTUN MAS CITRUS PET 500CC (X12)","1594","cachantun-mas-citrus-pet-500cc-x12-6915d4503a0a1.jpg"],[1,"CACHANTUN MAS GRANADA PET 1.5L (X6)","870269","cachantun-mas-granada-pet-15l-x6-6915d44e7c6ee.jpg"],[1,"CACHANTUN MAS GRANADA PET 500CC (X12)","870270","cachantun-mas-granada-pet-500cc-x12-6915d450d98f8.jpg"],[1,"CACHANTUN MAS LIMON JENGIBRE PET 500CC (X12)","870285","01KBJMYBZ10ES9ZAJHPDK7RAQ8.jpg"],[1,"CACHANTUN MAS MANGO MARACUYA PET 500CC (X12)","870902","01KBJNDYFJ1EMDQK6X08J6YRDQ.jpg"],[1,"CACHANTUN MAS MANZANA PET 1.5L (X6)","870164","cachantun-mas-manzana-pet-15l-x6-6915d44f0fb6b.jpg"],[1,"CACHANTUN MAS MANZANA PET 500CC (X12)","870165","cachantun-mas-manzana-pet-500cc-x12-6915d4516f8c0.jpg"],[1,"CACHANTUN MAS PERA PET 1.5L (X6)","870162","cachantun-mas-pera-pet-15l-x6-6915d44f7633e.jpg"],[1,"CACHANTUN MAS PERA PET 500CC (X12)","870163","cachantun-mas-pera-pet-500cc-x12-6915d45293ca3.jpg"],[1,"CACHANTUN MAS PIÑA PET 500CC (X12)","870219","01KBJNRS09N55SV8F3FSSPF5ZX.jpg"],[1,"CACHANTUN SG PET 1.6L (X6)","4715","cachantun-sg-pet-16l-x6-6915d44793ded.jpg"],[1,"CACHANTUN SG PET 500CC (X12)","4919","cachantun-sg-pet-500cc-x12-6915d44bad303.jpg"],[1,"COCA-COLA LATA 220CC (X6)","193","coca-cola-lata-220cc-x6-6915d566c4cd1.jpg"],[1,"COCA-COLA LATA 350CC (X6)","148","coca-cola-lata-350cc-x6-6915d56d3ab38.jpg"],[1,"COCA-COLA LIGHT LATA 220CC (X6)","493","coca-cola-light-lata-220cc-x6-6915d56754a69.jpg"],[1,"COCA-COLA LIGHT PET 2.5L (X6)","427","coca-cola-light-pet-25l-x6-6915d583404d5.jpg"],[1,"COCA-COLA LIGTH LATA 350CC (X6)","448","coca-cola-ligth-lata-350cc-x6-6915d56dbea21.jpg"],[1,"COCA-COLA LIGTH PERSONAL 350CC (X24)","441","coca-cola-ligth-personal-350cc-x24-6915d577ab78f.jpg"],[1,"COCA-COLA LIGTH PET 1.5L (X6)","420","coca-cola-ligth-pet-15l-x6-6915d57a615f6.jpg"],[1,"COCA-COLA LIGTH PET 591CC (X6)","439","coca-cola-ligth-pet-591cc-x6-6915d584df00d.jpg"],[1,"COCA-COLA PERSONAL 350CC (X24)","141","coca-cola-personal-350cc-x24-6915d577f1832.jpg"],[1,"COCA-COLA PET 1.5L (X6)","120","coca-cola-pet-15l-x6-6915d57e13366.jpg"],[1,"COCA-COLA PET 2.5L (X6)","127","coca-cola-pet-25l-x6-6915d583c4838.jpg"],[1,"COCA-COLA PET 591CC (X6)","437","coca-cola-pet-591cc-x6-6915d5855012f.jpg"],[1,"COCA-COLA ZERO LATA 220CC (X6)","496","coca-cola-zero-lata-220cc-x6-6915d5682586b.jpg"],[1,"COCA-COLA ZERO LATA 350CC (X6)","473","coca-cola-zero-lata-350cc-x6-6915d56e2ed6f.jpg"],[1,"COCA-COLA ZERO PERSONAL 350CC (X24)","451","coca-cola-zero-personal-350cc-x24-6915d57843ae8.jpg"],[1,"COCA-COLA ZERO PET 1.5L (X6)","480","coca-cola-zero-pet-15l-x6-6915d57e78d48.jpg"],[1,"COCA-COLA ZERO PET 2.5L (X6)","472","coca-cola-zero-pet-25l-x6-6915d58416186.jpg"],[1,"COCA-COLA ZERO PET 591CC (X6)","438","coca-cola-zero-pet-591cc-x6-6915d588ca17c.jpg"],[1,"FANTA LATA 350CC (X6)","648","fanta-lata-350cc-x24-6915d570eb953.jpg"],[1,"FANTA PERSONAL 350CC (X24)","641","fanta-personal-350cc-x24-6915d57888a24.jpg"],[1,"FANTA PET 591CC (X6)","682","fanta-pet-591cc-x6-6915d58feb549.jpg"],[1,"FANTA ZERO LATA 350CC (X6)","1248","fanta-zero-lata-350cc-x6-6915d57166b15.jpg"],[1,"FANTA ZERO PET 1.5L (X6)","1220","fanta-zero-pet-15l-x6-6915d57edf0d8.jpg"],[1,"FANTA ZERO PET 591 (X6)","1233","fanta-zero-pet-591-x6-6915d58d15f7e.jpg"],[1,"GATORADE FRUTAS TROPICALES PET 500CC (X6)","1237","gatorade-frutas-tropicales-pet-500-x6-6915d590c0bc8.jpg"],[1,"GATORADE LIMA-LIMON PET 500 (X6)","875218","gatorade-lima-limon-pet-500-x6-6915d591312c4.jpg"],[1,"GATORADE NARANJA PET 500 (X6)","875219","gatorade-naranja-pet-500-x6-6915d591960c8.jpg"],[1,"GINGER ALE LATA 350CC (X24)","1716","ginger-ale-lata-350cc-x24-6915d571d89ad.jpg"],[1,"GINGER ALE PET 1.5L (X6)","909","ginger-ale-pet-15l-x6-6915d57ff309a.jpg"],[1,"GINGER ALE ZERO LATA 350CC (X6)","1509","01KCQ7TG55VMDT4F8G74Q3ZK6G.jpg"],[1,"GINGER ALE ZERO PET 1.5L (X6)","1510","01KCQ873FEM027P8ZZVY9MDBM4.jpg"],[1,"KEM LATA 350CC (X24)","1710","kem-lata-350cc-x24-6915d572d7a49.jpg"],[1,"LIMON SODA LATA 350CC (X6)","1715","limon-soda-lata-350cc-x24-6915d57345699.jpg"],[1,"PAP LATA 350CC (X6)","1714","pap-lata-350cc-x24-6915d574badf2.jpg"],[1,"PEPSI LATA 350CC (X6)","1712","01KEMCSDC2G8AJPS6GWQMJXJTR.jpg"],[1,"PUYEHUE CON GAS PET 500CC (X12)","43300","01KBDS2ADJTMWS3MCAW0BCJC6T.jpg"],[1,"PUYEHUE CON GAS VIDRIO 330CC (X12)","43100","01KBDT0PNND0V010QH83RJ4FX5.jpg"],[1,"PUYEHUE SIN GAS PET 500CC (X12)","43200","01KBDSYA5Z2Z15C1AHTV3DHE2K.jpg"],[1,"PUYEHUE SIN GAS VIDRIO 330CC (X12)","43000","01KBDT2FA4P5T7R97G7JKDDJZ2.jpg"],[1,"QUATRO LIGTH LATA 350C (X24)","1948","quatro-ligth-lata-350c-x24-6915d5760501e.jpg"],[1,"SPRITE LATA 350CC (X24)","1348","sprite-lata-350cc-x24-6915d57670635.jpg"],[1,"SPRITE PERSONAL 350CC (X24)","1341","sprite-personal-350cc-x24-6915d579a62b0.jpg"],[1,"SPRITE PET 1.5L (X6)","1320","sprite-pet-15l-x6-6915d582669b4.jpg"],[1,"SPRITE PET 591CC (X6)","1305","sprite-pet-591cc-x6-6915d5905b1b2.jpg"],[1,"SPRITE ZERO 591CC (X6)","1306","sprite-zero-591cc-x6-6915d58f84dcc.jpg"],[1,"SPRITE ZERO LATA 350CC (X24)","1548","sprite-zero-lata-350cc-x24-6915d576d4583.jpg"],[1,"SPRITE ZERO PERSONAL 350CC (X24)","1541","sprite-zero-personal-350cc-x24-6915d57a17ff4.jpg"],[1,"SPRITE ZERO PET 1.5L (X6)","1520","sprite-zero-pet-15l-x6-6915d582cdc67.jpg"],[1,"VITAL CG PET 1.6L (X6)","2615","vital-cg-pet-16l-x6-6915d44918ea5.jpg"],[1,"VITAL CG PET 600CC (X12)","2629","vital-cg-pet-600cc-x12-6915d44cbca85.jpg"],[1,"VITAL SG PET 1.6L (X6)","2715","vital-sg-pet-16l-x6-6915d4497b6a8.jpg"],[1,"VITAL SG PET 600CC (X12)","2729","vital-sg-pet-600cc-x12-6915d44d2e5d0.jpg"],[1,"WATTS DAMASCO PET 1.5L (X6)","1601","watts-damasco-pet-15l-x6-6915d5df46aaa.jpg"],[1,"WATTS DURANZNO LIGHT BOCA ANCHA 300CC (X24)","870003","watts-duranzno-light-boca-ancha-300cc-x24-6915d5d6bdfe7.jpg"],[1,"WATTS DURAZNO BOCA ANCHA 300CC (X24)","870002","watts-durazno-boca-ancha-300cc-x24-6915d5d733648.jpg"],[1,"WATTS DURAZNO LIGHT PET 1.5L (X6)","1258","watts-durazno-light-pet-15l-x6-6915d5dfaa9ca.jpg"],[1,"WATTS DURAZNO PET 1.5L (X6)","1600","watts-durazno-pet-15l-x6-6915d5e01ff04.jpg"],[1,"WATTS DURAZNO TETRA 200CC (X30)","305463","watts-durazno-tetra-200cc-x30-6915d5e843169.jpg"],[1,"WATTS MANZANA TETRA 200CC (X30)","305465","watts-manzana-tetra-200cc-x30-6915d5e9aa9c3.jpg"],[1,"WATTS NARANJA BOCA ANCHA 300CC (X24)","870005","watts-naranja-boca-ancha-300cc-x24-6915d5d910ace.jpg"],[1,"WATTS NARANJA LIGHT PET 1.5L (X6)","1604","watts-naranja-light-pet-15l-x6-6915d5e0886ba.jpg"],[1,"WATTS NARANJA PET 1.5L (X6)","1602","watts-naranja-pet-15l-x6-6915d5e0edd09.jpg"],[1,"WATTS NARANJA TETRA 200CC (X30)","305467","watts-naranja-tetra-200cc-x30-6915d5eaa76d9.jpg"],[1,"WATTS PINA LIGHT PET 1.5L (X6)","870353","watts-pina-light-pet-15l-x6-6915d5e1a49a0.jpg"],[1,"WATTS PINA LIGHT TETRA 200CC (X30)","305203","watts-pina-light-tetra-200cc-x30-6915d5e141461.jpg"],[1,"WATTS PINA PET 1.5L (X6)","1603","watts-pina-pet-15l-x6-6915d5e215edc.jpg"],[1,"WATTS PINA TETRA 200CC (X30)","305464","watts-pina-tetra-200cc-x30-6915d5eb35c1a.jpg"],[1,"WATTS TUTTIARANDANO PET 1.5L (X6)","1473","01KJ8A9P664HN9ZSRHR0FSF3J5.jpg"],[1,"WATTS TUTTIFRUTILLA BOCA ANCHA 300CC (X24)","870008","watts-tuttifrutilla-boca-ancha-300cc-x24-6915d5da8f92b.jpg"],[1,"WATTS TUTTIFRUTILLA LIGHT PET 1.5L (X6)","1124","watts-tuttifrutilla-light-pet-15l-x6-6915d5e7b2da5.jpg"],[1,"WATTS TUTTIFRUTILLA LIGTH BA 300CC (X24)","870009","01KGQHZRC3WZHGZM7W270E0GPX.jpg"],[3,"AZUCAR GRANULADA IANSA BOLSA 1K (X1)","194433","azucar-granulada-iansa-bolsa-1k-x1-6915d59883271.jpg"],[3,"AZUCAR GRANULADA IANSA DORADA 1K (X1)","231950","01KAGXMR67VJ0AC1HDZVDFYTT4.jpg"],[3,"AZUCAR IANSA CUBITOS BLANCA 500G (X1)","210177","azucar-iansa-cubitos-blanca-500g-x1-6915d599b5075.jpg"],[3,"AZUCAR IANSA CUBITOS DORADA 500G (X1)","2025","azucar-iansa-cubitos-dorada-500g-x1-6915d59a292f1.jpg"],[3,"BOMBON AMBROSOLI MALVA 196G (X1)","77180","bombon-calaf-malva-250g-x1-6915d5a1c75e5.jpg"],[3,"BOMBON BONOBOM ARCOR 480G","225926","bombon-bonobom-arcor-480g-x30-6915d5a182db8.jpg"],[3,"CAFE CRUZEIRO LIOFILIZADO 170G (X1)","208468","cafe-cruzeiro-liofilizado-170g-x1-6915d59b73b66.jpg"],[3,"CAFE HAITI GRANO SUPER MOKA 3 250G (X1)","10027","cafe-haiti-grano-super-moka-3-250g-x1-6915d59c25d0b.jpg"],[3,"CAFE HAITI MOLIDO EXPRESS 250G (X1)","24305","cafe-haiti-molido-express-250g-x1-6915d59cec138.jpg"],[3,"CAFE HAITI MOLIDO SUPER MOKA 3 250G (X1)","10026","cafe-haiti-molido-super-moka-3-250g-x1-6915d59d5b725.jpg"],[3,"CAFE HAITI PULVERIZADO SUPER MOKA 3 250G (X1)","100266","cafe-haiti-pulverizado-super-moka-3-250g-x1-6915d59f33827.jpg"],[3,"CAFE NESCAFE DECAF 170G (X1)","12078461","cafe-nescafe-decaf-170g-x1-6915d59f76d5e.jpg"],[3,"CAFE NESCAFE FINA SELECCION 200G (X1)","12078399","cafe-nescafe-fina-seleccion-200g-x1-6915d5a006ccf.jpg"],[3,"CAFE NESCAFE TRADICION 400G (X1)","12110498","cafe-nescafe-tradicion-400g-x1-6915d5a04c861.jpg"],[3,"CAFE NESCAFE TRADICION FRASCO 170G(X1)","12078450","cafe-nescafe-tradicion-frasco-170gx1-6915d5a0f0a1f.jpg"],[3,"CAFE NESCAFE TRADICION TARRO 170G(X1)","11261036","cafe-nescafe-tradicion-tarro-170gx1-6915d5a13ff36.jpg"],[3,"CALUGA AMBROSOLI SUNY BOLSA 360G (X1)","721603","caluga-calaf-suny-bolsa-400g-x1-6915d5a32d092.jpg"],[3,"CARAMELO AMBROSOLI TOFFE BOLSA 450G (X1)","122055","caramelo-ambrosoli-toffe-bolsa-450g-x1-6915d5a3739e6.jpg"],[3,"ENDULZANTE IANSA CERO K STEVIA 250CC (X1)","235","endulzante-iansa-cero-k-stevia-270cc-x1-6915d5a8e888b.jpg"],[3,"ENDULZANTE IANSA CERO K STEVIA 500T (X1)","198","01KCMNJDF3WAH6HV4086XSVNDQ.jpg"],[3,"GALLETA COSTA AGUA LIGHT 210G (X1)","250181","galleta-costa-agua-light-210g-x1-6915d5bd64f45.jpg"],[3,"GALLETA COSTA CHOCOCHIPS 125G (X1)","250564","galleta-costa-chocochips-125g-x1-6915d5be3d804.jpg"],[3,"GALLETA COSTA COCO 125G (X1)","250559","galleta-costa-coco-125g-x1-6915d5bea369c.jpg"],[3,"GALLETA COSTA DONUTS BLANCO 100G (X1)","250853","galleta-costa-donuts-blanco-100g-x1-6915d5bf14e5a.jpg"],[3,"GALLETA COSTA DONUTS LECHE 100G (X1)","250852","galleta-costa-donuts-leche-100g-x1-6915d5bfdda3f.jpg"],[3,"GALLETA COSTA FRAC BIC FRUT-CHOC (X1)","251221","galleta-costa-frac-bic-frut-choc-x1-6915d5c04f7ad.jpg"],[3,"GALLETA COSTA FRAC CAPUCCINO 135G (X1)","251220","galleta-costa-frac-capuccino-135g-x1-6915d5c0d3df6.jpg"],[3,"GALLETA COSTA FRAC CHOCOLATE 135G (X1)","251203","galleta-costa-frac-chocolate-135g-x1-6915d5c14489a.jpg"],[3,"GALLETA COSTA FRAC CLASICA 135G (X1)","250239","galleta-costa-frac-clasica-135g-x1-6915d5c1aab89.jpg"],[3,"GALLETA COSTA FRAC VAINILLA 135G (X1)","250296","galleta-costa-frac-vainilla-135g-x1-6915d5c21d40e.jpg"],[3,"GALLETA COSTA GRETEL CHOC BLANC 85G (X1)","251502","galleta-costa-gretel-choc-blanc-85g-x1-6915d5c282fa0.jpg"],[3,"GALLETA COSTA GRETEL CHOCOLATE 85G (X1)","251501","galleta-costa-gretel-chocolate-85g-x1-6915d5c3508a8.jpg"],[3,"GALLETA COSTA GRETEL FRUTILLA 85G (X1)","251506","galleta-costa-gretel-frutilla-85g-x1-6915d5bf779da.jpg"],[3,"GALLETA COSTA LIMON 140G (X1)","250557","galleta-costa-limon-140g-x1-6915d5c3bf27e.jpg"],[3,"GALLETA COSTA MANTEQUILLA 140G (X1)","250558","galleta-costa-mantequilla-140g-x1-6915d5c431ee3.jpg"],[3,"GALLETA COSTA NIK BOCADO 71G (X1)","250465","galleta-costa-nik-bocado-71g-x1-6915d5c506df2.jpg"],[3,"GALLETA COSTA OBSESION CLASICA 85G (X1)","250502","01KCPT8XEGF97PDAFXVX32B91Y.jpg"],[3,"GALLETA COSTA OBSESION MANI 85G (X1)","251433","01KCPTAMFTS9S8KCA0VVJZ1YS4.jpg"],[3,"GALLETA COSTA SODA 180G (X1)","250196","galleta-costa-soda-180g-x1-6915d5c49735b.jpg"],[3,"GALLETA COSTA SODA LIGHT 180G (X1)","251104","galleta-costa-soda-light-180g-x1-6915d5d14773e.jpg"],[3,"GALLETA COSTA TUAREG 120G","250252","galleta-costa-tuareg-120g-6915d5c67bf55.jpg"],[3,"GALLETA COSTA VINO 160G (X1)","250530","galleta-costa-vino-160g-x1-6915d5c6e047e.jpg"],[3,"GALLETA MC ALTEZA BOCADO 140G (X1)","11262183","galleta-mc-alteza-bocado-140g-x1-6915d5c8545a4.jpg"],[3,"GALLETA MC ALTEZA FRUTILLA 140G (X1)","11262182","galleta-mc-alteza-frutilla-140g-x1-6915d5c89bd55.jpg"],[3,"GALLETA MC ALTEZA HELADO 140G (X1)","11262186","galleta-mc-alteza-helado-140g-x1-6915d5c8e1a1a.jpg"],[3,"GALLETA MC CRIOLLITA 80G (X1)","11262189","galleta-mc-criollita-100g-x1-6915d5c950acc.jpg"],[3,"GALLETA MC KUKY CLASICA 120G (X1)","11260284","galleta-mc-kuky-clasica-120g-x1-6915d5c9b572e.jpg"],[3,"GALLETA MC MANTEQUILLA 140G (X1)","11262202","galleta-mc-mantequilla-140g-x1-6915d5cb348ca.jpg"],[3,"GALLETA MC NIZA CLASICA 150G (X1)","12107178","galleta-mc-niza-clasica-150g-x1-6915d5cb9728f.jpg"],[3,"GALLETA MC SUPER OCHO 29G (X24)","12009081","galleta-mc-super-ocho-29g-x24-6915d5cbdd9fe.jpg"],[3,"GALLETA MC TRITON VAINILLA 126G (X1)","11262239","galleta-mc-triton-vainilla-126g-x1-6915d5cc4e00d.jpg"],[3,"GOMITAS AMBROSOLI FRUGELE 430G (X1)","136939","gomitas-ambrosoli-frugele-430g-x1-6915d5a52e791.jpg"],[3,"HIERBAS SUPREMO BAILAHUEN 20B (X1)","380814","hierbas-supremo-bailahuen-20b-x1-6915d5ab95f1b.jpg"],[3,"HIERBAS SUPREMO BOLDO 20B (X1)","40201200","hierbas-supremo-boldo-20b-x1-6915d5ac08863.jpg"],[3,"HIERBAS SUPREMO CEDRON 20B (X1)","4060201200","hierbas-supremo-cedron-20b-x1-6915d5ac8f077.jpg"],[3,"HIERBAS SUPREMO MANZANILLA 20B (X1)","381691","hierbas-supremo-manzanilla-20b-x1-6915d5ad3b5b9.jpg"],[3,"HIERBAS SUPREMO MANZANILLA MIEL 20B (X1)","201200","hierbas-supremo-manzanilla-miel-20b-x1-6915d5adc0dff.jpg"],[3,"HIERBAS SUPREMO MATICO 20B (X1)","58089","hierbas-supremo-matico-20b-x1-6915d5ae30e1f.jpg"],[3,"HIERBAS SUPREMO MENTA 20B (X1)","381683","hierbas-supremo-menta-20b-x1-6915d5ae96d9b.jpg"],[3,"HIERBAS SUPREMO OCHO HIERBAS 20B (X1)","202500","hierbas-supremo-ocho-hierbas-20b-x1-6915d5af25929.jpg"],[3,"HIERBAS SUPREMO SURTIDAS 100B (X1)","426100","hierbas-supremo-surtidas-100b-x1-6915d5af8a6c3.jpg"],[3,"HIERBAS SUPREMO SURTIDAS 20B (X1)","381675","hierbas-supremo-surtidas-20b-x1-6915d5b01b09f.jpg"],[3,"LECHE COLUN DESCREMADA SIN LACTOSA TAPA ROSCA TETRA 1L (X1)","2800432","leche-colun-descrema-sin-lactosa-tapa-rosca-tetra-1l-x1-6915d5ec57bdf.jpg"],[3,"LECHE COLUN DESCREMADA TETRA 1L (X1)","2225077","leche-colun-descremada-tetra-1l-x1-6915d5ec9d8a2.jpg"],[3,"LECHE COLUN NATURAL TETRA 1L (X1)","2225220","leche-colun-natural-tetra-1l-x1-6915d5ed78122.jpg"],[3,"LECHE COLUN SEMIDESCREMADA TETRA 1L (X1)","2225123","leche-colun-semidescre-tapa-rosca-tetra-1l-x1-6915d5ee753ba.jpg"],[3,"LECHE SOPROLE DESCREMADA SIN LACTOSA TETRA 1L (X1)","48001","leche-soprole-descremada-sin-lactosa-tetra-1l-x1-6915d5f02d16d.jpg"],[3,"LECHE SOPROLE ENTERA TETRA 1L (X12)","30001","leche-soprole-entera-tetra-1l-x12-6915d5f091b53.jpg"],[3,"LECHE SOPROLE SEMI DESCREMADA TETRA 1L (X1)","29001","leche-soprole-semi-descremada-tetra-1l-x1-6915d5f14a8f6.jpg"],[3,"MILO BOLSA 1K (X1)","120582","milo-bolsa-1k-x1-6915d5b5092e5.jpg"],[3,"QUEQUE NUTRABIEN BROWNIE TRADICIONAL 62G (X12)","73868","queque-nutrabien-brownie-tradicional-62g-x12-6915d5cec6922.jpg"],[3,"TE LIPTON GREEN TEA 100B (X1)","801961","te-lipton-green-tea-100bolsas-x1-6915d5b54e3b8.jpg"],[3,"TE LIPTON GREEN TEA 20B (X1)","80445","te-lipton-green-tea-20b-x1-6915d5b73bf8b.jpg"],[3,"TE LIPTON ROYAL CEYLAN 100B (X1)","25032","te-lipton-royal-ceylan-100b-x1-6915d5b604fa8.jpg"],[3,"TE LIPTON YELLOW LEBEL 100B (X1)","371025","te-lipton-yellow-lebel-100-bolsas-x1-6915d5b780eef.jpg"],[3,"TE SUPREMO 6 SABORES 75B (X1)","5156","te-supremo-6-sabores-75-bolsas-x1-6915d5b7e868f.jpg"],[3,"VASO TUGOU POLYPAPEL BLANCO 12 OZ (X50)","16000","01KH1DFQYNNJQDE7JAZKQEBYP2.jpg"],[3,"VASO TUGOU POLYPAPEL BLANCO 6 OZ (X50)","15C09","vaso-tugou-polypapel-blanco-6-oz-x50-6915d5b0ac388.jpg"],[3,"VASO TUGOU POLYPAPEL BLANCO 8 OZ (X50)","16008","01KH1DA3CHF9263DWYX48W41RH.jpg"],[6,"MOUSE KENSINGTON FOR LIFE USB (X1)","216865","01KD3WPCBBJ5BEE6ZHD1PKFPAQ.jpg"],[6,"MOUSE KENSINGTON FOR LIFE WIRELESS (X1)","42102","01KD3WXR5SF7S1YXQN6NFVM20Z.jpg"],[0,"ALFILER HAND PUSH PINS COLORES (X100)","6461","alfiler-push-pins-hand-colores-x100-6915d4a504723.jpg"],[0,"ALFILER ISOFIT PUSH PINS COLORES (X100)","9272K","alfiler-push-pins-isofit-colores-x100-6915d4a56a73d.jpg"],[0,"ARCHIVADOR COLON TRADICIONAL ANCHO OFICIO (X1)","311146","archivador-colon-tradicional-ancho-oficio-x1-6915d4a711411.jpg"],[0,"ARCHIVADOR COLON TRADICIONAL ANGOSTO OFICIO (X1)","311143","archivador-colon-tradicional-angosto-oficio-x1-6915d4a7764e5.jpg"],[0,"ARCHIVADOR RHEIN RADO COLORES ANCHO OFICIO (X1)","311001","archivador-rhein-rado-colores-ancho-oficio-6915d4a6a23c5.jpg"],[0,"ARCHIVADOR RHEIN TRADICIONAL ANCHO CARTA (X1)","311145","archivador-rhein-tradicional-ancho-carta-6915d4a7dbea3.jpg"],[0,"BASE CALENDARIO HAND 21X18 REJILLA NEGRO (X1)","603030","base-calendario-hand-21x18-rejilla-negro-6915d4d9d0853.jpg"],[0,"BATERIA DURACELL 9V (X1)","16047","bateria-duracell-9v-x1-6915d52e726f7.jpg"],[0,"BLOCK AUCA MATEMATICA CARTA 7MM 80H","994713","block-auca-carta-matematica-7mm-80h-6915d4a9154e9.jpg"],[0,"BLOCK COLON ESPIRAL CARTA 7MM 80H (X1)","510340","01KAVS9EVRGN2VXFJ20JNWCHJJ.jpg"],[0,"BLOCK COLON ESPIRAL ESCOLAR 7MM 80H (X1)","10241","block-colon-escolar-espiral-7mm-80h-x1-6915d4aa62c94.jpg"],[0,"BLOCK COLON MATEMATICA OFICIO 7MM 80H (X1)","11656","01KAVRWTCEZ5K2EACT33TB88TF.jpg"],[0,"BLOCK RHEIN MATEMATICA OFICIO 7MM 80H","322147","block-rhein-oficio-matematica-7mm-80h-6915d4aac6d8d.jpg"],[0,"BORRADOR PIZARRA DATAZONE NEGRO","ER881L","01KBJKQMSHQKTAAQYT593X0FRH.jpg"],[0,"BORRADOR PIZARRA DATAZONE TIPO MOUSE NEGRO (X1)","ER1252B","borrador-pizarra-tipo-mouse-negro-x1-6915d4d753a27.jpg"],[0,"CAJA ARCHIVO MEMPHIS AMERICANA (X1)","8016","caja-archivo-memphis-americana-x1-6915d4a289db9.jpg"],[0,"CAJA ARCHIVO MEMPHIS DOBLE ESTANDAR","99114","caja-archivo-memphis-doble-estandar-6915d4d96927e.jpg"],[0,"CAJA ARCHIVO MEMPHIS ESTANDAR (X1)","99111","caja-archivo-memphis-estandar-x1-6915d4d86df14.jpg"],[0,"CAJA CD/DVD TRANSPARENTE OSTRA (X1)","3015","caja-cddvd-transparente-ostra-x1-6915d4eb50989.jpg"],[0,"CAJA KARDEX  MEMPHIS CARPETA COLGANTE OFICIO N°7 (X1)","8062","01KFGY98D25DKGK7T4PG0KDPVZ.jpg"],[0,"CAJA SEGURIDAD HAND 20X16X9 2 LLAVES (X1)","7183","caja-seguridad-hand-20x16x9-2-llaves-x1-6915d4d7b7c47.jpg"],[0,"CARPETA ADIX CARTULINA ELASTICO OFICIO (X1)","314414","carpeta-adix-cartulina-elastico-oficio-x1-6915d4dfd05b7.jpg"],[0,"CARPETA DATA ZONE PRESENTADOR COLORES A4 (X1)","E310R","carpeta-data-zone-presentador-rojo-a4-6915d60223de2.jpg"],[0,"CARPETA DATA ZONE PRESENTADOR COLORES OFICIO (X1)","E355Y","carpeta-data-zone-presentador-amarillo-oficio-6915d601d2478.jpg"],[0,"CARPETA RHEIN CARTON PESTAÑA COLORES OFICIO (X1)","314460","01KBJSZN6GG40APX1N184JP82V.jpg"],[0,"CARPETA RHEIN COLGANTE SUPER CLASS COLORES (X1)","313201","carpeta-rhein-colgante-super-class-amarilla-6915d4e14a73c.jpg"],[0,"CARPETA RHEIN FASTENER TRANSPARENTE AZUL CARTA (X1)","314431","carpeta-rhein-fastener-transparente-azul-carta-6915d4e49f60f.jpg"],[0,"CARPETA RHEIN FASTENER TRANSPARENTE AZUL OFICIO (X1)","314436","carpeta-rhein-fastener-transparente-azul-oficio-6915d4e554ca4.jpg"],[0,"CARPETA RHEIN FASTENER TRANSPARENTE NEGRO CARTA (X1)","314430","carpeta-rhein-fastener-transparente-negro-carta-6915d4e4e7e9c.jpg"],[0,"CARPETA RHEIN FASTENER TRANSPARENTE NEGRO OFICIO (X1)","314435","carpeta-rhein-fastener-transparente-negro-oficio-6915d4e59b736.jpg"],[0,"CARPETA RHEIN PRESENTACION VINIL SCHNELL OFICIO (X1)","314425","carpeta-rhein-presentacion-vinil-schnel-oficio-6915d4e841dce.jpg"],[0,"CARPETA RHEIN-TORRE COLGANTE ESTANDAR (X1)","313300","carpeta-rhein-colgante-estandar-6915d4e3f0491.jpg"],[0,"CD-R MASTER-G 700MB 80M 52X TORRE 50U (X1)","759912","01KBMTT6QAD0WHW7TM5E3362C0.jpg"],[0,"CINTA ADHESIVA 3M CRISTAL CAJA 19X20 (X1)","17112","cinta-adhesiva-3m-cristal-caja-19x20-6915d4ed7c089.jpg"],[0,"CINTA ADHESIVA 3M MAGICA 19X25 (X1)","91254","cinta-adhesiva-3m-magica-19x25-6915d4ed17d37.jpg"],[0,"CINTA ADHESIVA SCOTCH M/500 18X30 (X1)","763682","cinta-adhesiva-scotch-m500-18x30-6915d4ee2763d.jpg"],[0,"CINTA EMBALAJE 3M CAFE 48X40M (X1)","1765","cinta-embalaje-3m-cafe-48x40m-6915d4efc0556.jpg"],[0,"CINTA EMBALAJE 3M TRASPARENTE 48X40M (X1)","1772","cinta-embalaje-3m-trasparente-48x40m-6915d4f13b776.jpg"],[0,"CINTA EMBALAJE FIBRA TRANSPARENTE 48X40M (X1)","FR01279","cinta-embalaje-fibra-transparente-48x40m-6915d4f1800f2.jpg"],[0,"CLIP ADIX 33MM 100U (X1)","AXMPC33100","clip-adix-33mm-100u-6915d4f256edf.jpg"],[0,"CLIP ISOFIT METAL 100MM 20U (X1)","113069","01KC9PSBAVEYNK6H3CW6YEFPJM.jpg"],[0,"CLIP ISOFIT METAL 78MM 50U (X1)","113050","01KC9YRYAWM0BESKHE28RB0JQT.jpg"],[0,"CLIP MAGIC ADIX REPUESTO 4.8MM 50U (X1)","AXMG1021","clip-magic-adix-repuesto-48mm-50u-6915d4f4a4c98.jpg"],[0,"CLIP TORRE 33MM 1K (X1)","7594","clip-hand-33mm-bolsa-1k-x1-6915d4f59a50b.jpg"],[0,"CLIPERA ADIX CORTO","AXCL6211","clipera-adix-corto-6915d4f60c202.jpg"],[0,"CORCHETERA ADIX MEDIANA NEGRA METAL 20H 26-6 (X1)","5006","01KCA44R32XP40K9XV7SKTD6KH.jpg"],[0,"CORCHETERA ISOFIT METALICA CM50 NEGRO 25H (X1)","112801","corchetera-isofit-metalica-cm50-negro-25h-6915d61014917.jpg"],[0,"CORCHETES ADIX 23/17 CAJA 1000U (X1)","AXSHD2317","01KCMDTNQB3JT3WE8EBSDP2BJZ.jpg"],[0,"CORCHETES ADIX 23/23 CAJA 1000U (X1)","AXSHD2323","01KCMDPB08A6PQYYEHN5XGP797.jpg"],[0,"CORCHETES ADIX 24/6 CAJA 1000U (X1)","AXSHD2406","01KCMDRJNR55ASJ2TTZAY6Z97S.jpg"],[0,"CORCHETES ADIX 26/6 CAJA 1000U (X1)","A203012","corchetes-adix-266-caja-x1000-6915d4f8f262e.jpg"],[0,"CORCHETES ISOFIT 26/6 1000U(X1)","112992","corchetes-isofit-266-x1000-6915d6144030d.jpg"],[0,"CORCHETES RAPID 23/24 CAJA 1000U (X1)","3249","01KCMDYATDFCMNTGVBBJ0WDQ27.jpg"],[0,"CORCHETES RHEIN 26/6 5000U (X1)","366153","corchetes-rhein-266-x5000-6915d4f9bf449.jpg"],[0,"CORCHETES TORRE 23/8 1000U (X1)","1182","01KCMDWCM05C7V683HJ2T2S0TC.jpg"],[0,"CORRECTOR ADIX CINTA (X1)","AXCTOMTC","corrector-adix-cinta-x1-6915d4fa124a2.jpg"],[0,"CORRECTOR BIC LAPIZ SHAKE&SQUARE 8M (X1)","1400038","corrector-bic-lapiz-shakeampsquare-8m-6915d60edb8a2.jpg"],[0,"CUADERNO COLON UNIVERSITARIO 100H 7MM (X1)","320447","cuaderno-colon-universitario-100h-7mm-x1-6915d4fb96991.jpg"],[0,"CUADERNO RHEIN CLASSIC SCOTCH 1/2 OFICIO 180H 5MM (X1)","317737","cuaderno-rhein-classic-scotch-12-oficio-180h-5mm-6915d4fac0e86.jpg"],[0,"CUCHILLO CARTONERO ADIX GRANDE FRENO (X1)","114162","cuchillo-cartonero-adix-grande-freno-6915d4fcd4325.jpg"],[0,"CUCHILLO CARTONERO ISOFIT CHICO FRENO (X1)","25607","cuchillo-cartonero-isofit-chico-freno-6915d4fc6eb34.jpg"],[0,"DEDO GOMA Nº11 C/PERFORACION AZUL (X1)","103011","dedo-goma-no11-cperforacion-azul-x1-6915d4fd42cbb.jpg"],[0,"DEDO GOMA Nº12 C/PERFORACION ROJO (X1)","103012","dedo-goma-no12-cperforacion-rojo-x1-6915d4fda56c1.jpg"],[0,"DEDO GOMA Nº13 C/PERFORACION VERDE (X1)","103013","dedo-goma-no13-cperforacion-verde-x1-6915d4fe15b87.jpg"],[0,"DESTACADOR ADIX AMARILLO (X1)","603002","destacador-adix-amarillo-6915d4fe9adc0.jpg"],[0,"DESTACADOR ADIX AZUL (X1)","603003","destacador-adix-azul-6915d4ff251dd.jpg"],[0,"DESTACADOR ADIX NARANJO (X1)","603004","destacador-adix-naranjo-6915d4ffaaafd.jpg"],[0,"DESTACADOR ADIX ROSADO (X1)","603005","destacador-adix-rosado-6915d50039d31.jpg"],[0,"DESTACADOR ADIX VERDE (X1)","603006","destacador-adix-verde-6915d500bde2b.jpg"],[0,"DISPENSADOR CINTA ADHESIVA DELUXE MEDIANA (X1)","159751","dispensador-cinta-adhesiva-isofit-mediano-6915d503b8118.jpg"],[0,"DOBLE CLIP ADIX 15MM 12U (X1)","AXDC15","01KCMM102860KHX1RBRWHVSE67.jpg"],[0,"DOBLE CLIP ADIX 19MM 12U (X1)","AXDC19","01KCMM2Y1AP3EX4QXSS7EWZK8Y.jpg"],[0,"DOBLE CLIP ADIX 25MM 12U (X1)","AXDC25","01KCMM59BC1J0E9MC4JR41G0PG.jpg"],[0,"DOBLE CLIP HAND 32MM 12U (X1)","69032","doble-clip-hand-32mm-12u-6915d50547a12.jpg"],[0,"DOBLE CLIP HAND 41MM 12U (X1)","9041","doble-clip-hand-41mm-12u-6915d505ae2e5.jpg"],[0,"DOBLE CLIP HAND 51MM 12U (X1)","9051","doble-clip-hand-51mm-12u-6915d50600838.jpg"],[0,"DVD-R IMATION 4,7GB 16X TORRE 50U (X1)","3417","dvd-r-imation-47gb-16x-torre-50u-6915d4eca9a60.jpg"],[0,"ELASTICOS BLANCOS 60/1.5 1K (X1)","201019","elasticos-blancos-6015-1k-6915d5069892c.jpg"],[0,"ELASTICOS BLANCOS 60/1.5 500G (X1)","201022","elasticos-blancos-6015-500g-6915d5070a709.jpg"],[0,"FUNDA ADIX TRANSPARENTE LOMO BLANCO CARTA 100U (X1)","AX013L100W","funda-adix-transparente-lomo-blanco-carta-x100-6915d50a1bcdb.jpg"],[0,"FUNDA ADIX TRANSPARENTE LOMO BLANCO CARTA 10U (X1)","AX013L10","funda-adix-transparente-lomo-blanco-carta-x10-6915d509ab43f.jpg"],[0,"FUNDA ADIX TRANSPARENTE LOMO BLANCO OFICIO 100U (X1)","AX013F100W","funda-adix-transparente-lomo-blanco-oficio-x100-6915d50ae58b1.jpg"],[0,"FUNDA ADIX TRANSPARENTE LOMO BLANCO OFICIO 10U (X1)","AX013F10","funda-adix-transparente-lomo-blanco-oficio-x10-6915d50a8090f.jpg"],[0,"GOMA BORRAR ADIX PLASTICA GRANDE 70 (X1)","AXERRLN","01KCQ8P6G1ZRHX0A1TJV3WD5KK.jpg"],[0,"LAPIZ BICOLOR ADIX GRUESO ROJO AZUL (X1)","401091","lapiz-bicolor-adix-grueso-rojo-azul-x1-6915d513ce3e1.jpg"],[0,"LAPIZ PASTA BIC CRISTAL MEDIUM AZUL (X1)","1101065","boligrafo-bic-cristal-medium-azul-x1-6915d4ac267cc.jpg"],[0,"LAPIZ PASTA BIC CRISTAL MEDIUM NEGRO (X1)","1101071","boligrafo-bic-cristal-medium-negro-x1-6915d4aca5df6.jpg"],[0,"LAPIZ PASTA BIC CRISTAL MEDIUM ROJO (X1)","1101067","boligrafo-bic-cristal-medium-rojo-x1-6915d4ad18924.jpg"],[0,"LAPIZ PASTA BIC CRISTAL MEDIUM VERDE (X1)","1101069","boligrafo-bic-cristal-medium-verde-x1-6915d4ad60290.jpg"],[0,"LAPIZ PASTA BIC FINE PLUS AZUL (X1)","1103091","boligrafo-bic-fine-plus-azul-x1-6915d4adaadfd.jpg"],[0,"LAPIZ PASTA BIC FINE PLUS NEGRO (X1)","1103093","boligrafo-bic-fine-plus-negro-x1-6915d4af03fcd.jpg"],[0,"LAPIZ PASTA BIC FINE PLUS ROJO (X1)","1103092","boligrafo-bic-fine-plus-rojo-x1-6915d4af4b3ec.jpg"],[0,"LAPIZ PASTA PILOT BPS FINE 0.7 AZUL (X1)","BPSFL","boligrafo-pilot-bps-fine-07-azul-x1-6915d4af90bd3.jpg"],[0,"LAPIZ PASTA PILOT BPS FINE 0.7 NEGRO (X1)","BPSFB","boligrafo-pilot-bps-fine-07-negro-x1-6915d4afe67cc.jpg"],[0,"LAPIZ PASTA PILOT BPS FINE 0.7 ROJO (X1)","BPSFR","boligrafo-pilot-bps-fine-07-rojo-x1-6915d4b0561d7.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP FINE 0.7 AZUL (X1)","BPSGPFL","boligrafo-pilot-bps-grip-fine-07-azul-x1-6915d4b198fe1.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP FINE 0.7 NEGRO (X1)","BPSGPFB","boligrafo-pilot-bps-grip-fine-07-negro-x1-6915d4b20ae27.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP FINE 0.7 ROJO (X1)","BPSGPFR","boligrafo-pilot-bps-grip-fine-07-rojo-x1-6915d4b24fa8f.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP FINE 0.7 VERDE (X1)","BPSGPFG","boligrafo-pilot-bps-grip-fine-07-verde-x1-6915d4b365eab.JPG"],[0,"LAPIZ PASTA PILOT BPS GRIP MEDIUM 1.0 AZUL (X1)","BPSGPML","boligrafo-pilot-bps-grip-medium-10-azul-x1-6915d4b3ac9fc.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP MEDIUM 1.0 NEGRO (X1)","BPSGPMB","boligrafo-pilot-bps-grip-medium-10-negro-x1-6915d4b41cf1e.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP MEDIUM 1.0 ROJO (X1)","BPSGPMR","boligrafo-pilot-bps-grip-medium-10-rojo-x1-6915d4b463597.jpg"],[0,"LAPIZ PASTA PILOT BPS GRIP MEDIUM 1.0 VERDE (X1)","BPSGPMG","boligrafo-pilot-bps-grip-medium-10-verde-x1-6915d4b571cb9.JPG"],[0,"LAPIZ PASTA PILOT BPS MEDIUM 1.0 AZUL (X1)","BPSML","boligrafo-pilot-bps-medium-10-azul-x1-6915d4b09b244.jpg"],[0,"LAPIZ PASTA PILOT BPS MEDIUM 1.0 NEGRO (X1)","BPSMB","boligrafo-pilot-bps-medium-10-negro-x1-6915d4b0e151a.jpg"],[0,"LAPIZ PASTA PILOT BPS MEDIUM 1.0 ROJO (X1)","BPSMR","boligrafo-pilot-bps-medium-10-rojo-x1-6915d4b134bec.jpg"],[0,"LAPIZ PASTA PILOT BPTPF FINE 0.7 NEGRO (X1)","BPTPFB","boligrafo-pilot-bptpf-fine-07-negro-x1-6915d4b794c14.JPG"],[0,"LAPIZ PASTA PILOT BPTPF FINE 0.7 ROJO (X1)","BPTPFR","boligrafo-pilot-bptpf-fine-07-rojo-x1-6915d4b8ec3fd.JPG"],[0,"LAPIZ PASTA PILOT BPTPM MEDIUM 1.0 NEGRO (X1)","BPTPMB","boligrafo-pilot-bptpm-medium-10-negro-x1-6915d4bc00a8e.JPG"],[0,"LAPIZ PASTA PILOT BPTPM MEDIUM 1.0 ROJO (X1)","BPTPMR","boligrafo-pilot-bptpm-medium-10-rojo-x1-6915d4bd4497d.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 AZUL CIELO (X1)","BLG27SB","boligrafo-pilot-g2-fine-07-azul-cielo-x1-6915d4c48cc2c.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 AZUL PIEDRA (X1)","BLG27BB","boligrafo-pilot-g2-fine-07-azul-piedra-x1-6915d4c5d79cc.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 CAFE (X1)","BLG27CA","boligrafo-pilot-g2-fine-07-cafe-x1-6915d4c72ca89.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 NEGRO (X1)","BLG27B","boligrafo-pilot-g2-fine-07-negro-x1-6915d4c874022.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 ROJO (X1)","BLG27R","boligrafo-pilot-g2-fine-07-rojo-x1-6915d4c9aa984.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 VERDE (X1)","BLG27G","boligrafo-pilot-g2-fine-07-verde-x1-6915d4cb034c5.JPG"],[0,"LAPIZ PASTA PILOT G2 FINE 0.7 VIOLETA (X1)","BLG27V","boligrafo-pilot-g2-fine-07-violeta-x1-6915d4cc9d3e4.JPG"],[0,"LAPIZ TINTA PILOT G1 EXTRA FINE 0.5 AZUL (X1)","BLG15L","boligrafo-pilot-g1-extra-fine-05-azul-x1-6915d4bdab376.jpg"],[0,"LAPIZ TINTA PILOT G1 EXTRA FINE 0.5 NEGRO (X1)","BLG15B","boligrafo-pilot-g1-extra-fine-05-negro-x1-6915d4be1cf36.jpg"],[0,"LAPIZ TINTA PILOT G1 EXTRA FINE 0.5 ROJO (X1)","BLG15R","boligrafo-pilot-g1-extra-fine-05-rojo-x1-6915d4be84c55.jpg"],[0,"LAPIZ TINTA PILOT G1 EXTRA FINE 0.5 VERDE (X1)","BLG15G","boligrafo-pilot-g1-extra-fine-05-verde-x1-6915d4bfd007b.JPG"],[0,"LAPIZ TINTA PILOT G1 FINE 0.7 AZUL (X1)","BLG17L","boligrafo-pilot-g1-fine-07-azul-x1-6915d4c045f19.jpg"],[0,"LAPIZ TINTA PILOT G1 FINE 0.7 NEGRO (X1)","BLG17B","boligrafo-pilot-g1-fine-07-negro-x1-6915d4c08a77f.jpg"],[0,"LAPIZ TINTA PILOT G1 FINE 0.7 ROJO (X1)","BLG17R","boligrafo-pilot-g1-fine-07-rojo-x1-6915d4c1f07c4.JPG"],[0,"LAPIZ TINTA PILOT SUPER GEL EXTRA FINE 0.5 AZUL (X1)","BLSG5L","boligrafo-pilot-super-gel-extra-fine-05-azul-x1-6915d4cdd6d81.JPG"],[0,"LAPIZ TINTA PILOT SUPER GEL EXTRA FINE 0.5 NEGRO (X1)","BLSG5B","boligrafo-pilot-super-gel-extra-fine-05-negro-x1-6915d4cf19e61.JPG"],[0,"LAPIZ TINTA PILOT SUPER GEL EXTRA FINE 0.5 ROJO (X1)","BLSG5R","boligrafo-pilot-super-gel-extra-fine-05-rojo-x1-6915d4d075c07.JPG"],[0,"LAPIZ TINTA PILOT SUPER GEL FINE 0.7 AZUL (X1)","BLSG7L","boligrafo-pilot-super-gel-fine-07-azul-x1-6915d4d1e428c.JPG"],[0,"LAPIZ TINTA PILOT SUPER GEL FINE 0.7 NEGRO (X1)","BLSG7B","boligrafo-pilot-super-gel-fine-07-negro-x1-6915d4d338f57.JPG"],[0,"LAPIZ TINTA PILOT SUPER GEL FINE 0.7 ROJO (X1)","BLSG7R","boligrafo-pilot-super-gel-fine-07-rojo-x1-6915d4d47aa36.JPG"],[0,"LIBRO AUCA ACTA 50H (X1)","5358","libro-auca-acta-50h-x1-6915d50da2dff.jpg"],[0,"LIBRO BUHO ASISTENCIA 50H (X1)","1210","libro-buho-asistencia-50h-x1-6915d50ef1b1d.jpg"],[0,"LIBRO RHEIN ACTAS 100H (X1)","328371","01KCS9H9DWVA69M5WWBPPH7Z7D.jpg"],[0,"LIBRO RHEIN ACTAS 50H (X1)","328370","libro-rhein-actas-50h-x1-6915d50f614db.jpg"],[0,"LIBRO RHEIN ASISTENCIA 100H (X1)","328373","libro-rhein-asistencia-100h-x1-6915d50fc42f3.jpg"],[0,"LIBRO RHEIN CORRESPONDENCIA 100H 22X16 (X1)","328380","libro-rhein-correspondencia-100h-22x16-x1-6915d511193ba.jpg"],[0,"LOMO ARCHIVADOR ADETEC AUTOADHESIVO ANCHO AMARILLO (X10)","1004","lomo-archivador-adetec-autoadhesivo-ancho-amarillo-x10-6915d5076d4b5.jpg"],[0,"LOMO ARCHIVADOR ADETEC AUTOADHESIVO ANCHO BEIGE (X10)","1009","lomo-archivador-adetec-autoadhesivo-ancho-beige-x10-6915d507b3fd1.jpg"],[0,"LOMO ARCHIVADOR ADETEC AUTOADHESIVO ANCHO BLANCO (X10)","1001","lomo-archivador-adetec-autoadhesivo-ancho-blanco-x10-6915d508259fd.jpg"],[0,"LOMO ARCHIVADOR ADETEC AUTOADHESIVO ANCHO NARANJO (X10)","1008","lomo-archivador-adetec-autoadhesivo-ancho-naranjo-x10-6915d509466ac.jpg"],[0,"LOMO ARCHIVADOR ADETEC AUTOADHESIVO ANCHO ROJO (X10)","31006","lomo-archivador-adetec-autoadhesivo-ancho-rojo-x10-6915d5088adbc.jpg"],[0,"LOMO ARCHIVADOR ADETEC AUTOADHESIVO ANCHO VERDE (X10)","31005","lomo-archivador-adetec-autoadhesivo-ancho-verde-x10-6915d50900ed4.jpg"],[0,"MARCADOR CD PILOT EXTFINO 0.6M AZUL (X1)","SCAEFCDL","01KD3RQVKXSXN9VNHBAK79SC9K.jpg"],[0,"MARCADOR CD-DVD PILOT EXTFINO 0.6M NEGRO (X1)","SCAEFCDB","01KD3RN933PT97D10N6PE5CTDX.jpg"],[0,"MARCADOR PERMANENTE ISOFIT PUNTA REDONDA AZUL (X1)","151807","marcador-permanente-isofit-punta-redonda-azul-x1-6915d5143fc28.jpg"],[0,"MARCADOR PERMANENTE ISOFIT PUNTA REDONDA ROJO (X1)","151785","marcador-permanente-isofit-punta-redonda-rojo-x1-6915d5150f526.jpg"],[0,"MARCADOR PERMANENTE PILOT ECO AZUL (X1)","SCA100L","marcador-permanente-pilot-eco-azul-x1-6915d51230863.jpg"],[0,"MARCADOR PERMANENTE PILOT ECO NEGRO (X1)","SCA100B","marcador-permanente-pilot-eco-negro-x1-6915d51293fad.jpg"],[0,"MARCADOR PERMANENTE PILOT ECO ROJO (X1)","SCA100R","marcador-permanente-pilot-eco-rojo-x1-6915d51366f16.jpg"],[0,"MARCADOR PERMANENTE PILOT FINE 1.0MM AZUL (X1)","SCAFL","marcador-permanente-pilot-fine-10mm-azul-x1-6915d515d774b.jpg"],[0,"MARCADOR PERMANENTE PILOT FINE 1.0MM NEGRO (X1)","SCAFB","marcador-permanente-pilot-fine-10mm-negro-x1-6915d516481aa.jpg"],[0,"MARCADOR PERMANENTE PILOT FINE 1.0MM ROJO (X1)","SCAFR","marcador-permanente-pilot-fine-10mm-rojo-x1-6915d516ad782.jpg"],[0,"MARCADOR PERMANENTE PILOT FINE 1.0MM VERDE (X1)","SCAFG","marcador-permanente-pilot-fine-10mm-verde-x1-6915d51702819.jpg"],[0,"MARCADOR PIZARRA BIC PUNTA REDONDA AZUL (X1)","1200335","marcador-pizarra-bic-punta-redonda-azul-x1-6915d5174804a.jpg"],[0,"MARCADOR PIZARRA BIC PUNTA REDONDA NEGRO (X1)","1200334","marcador-pizarra-bic-punta-redonda-negro-x1-6915d5178ec2f.jpg"],[0,"MARCADOR PIZARRA BIC PUNTA REDONDA ROJO (X1)","1200336","marcador-pizarra-bic-punta-redonda-rojo-x1-6915d517d359d.jpg"],[0,"MARCADOR PIZARRA PILOT AZUL (X1)","WBMARL","marcador-pizarra-pilot-azul-x1-6915d5188bacd.jpg"],[0,"MARCADOR PIZARRA PILOT NEGRO (X1)","WBMARB","marcador-pizarra-pilot-negro-x1-6915d518f1b2e.jpg"],[0,"MARCADOR PIZARRA PILOT RECARGABLE AZUL (X1)","WBMATML","marcador-pizarra-pilot-recargable-azul-x1-6915d5197ffb1.jpg"],[0,"MARCADOR PIZARRA PILOT RECARGABLE NEGRO (X1)","WBMATMB","marcador-pizarra-pilot-recargable-negro-x1-6915d51a0fc1a.jpg"],[0,"MARCADOR PIZARRA PILOT RECARGABLE ROJO (X1)","WBMATMR","marcador-pizarra-pilot-recargable-rojo-x1-6915d51a97847.jpg"],[0,"MARCADOR PIZARRA PILOT RECARGABLE VERDE (X1)","WBMATMG","marcador-pizarra-pilot-recargable-verde-x1-6915d51b27ddf.jpg"],[0,"MARCADOR PIZARRA PILOT ROJO (X1)","WBMARR","marcador-pizarra-pilot-rojo-x1-6915d51b8cd09.jpg"],[0,"MASKING TAPE HAND 18MMX40MT (X1)","190164","01KD3VDGETGY3HN2Y7EDYPM4YZ.jpg"],[0,"MINAS PILOT 0.5 HB (X12)","PPL5HB","minas-pilot-05-hb-x12-6915d53228573.jpg"],[0,"MINAS PILOT 0.7 HB (X12)","PPL7HB","minas-pilot-07-hb-x12-6915d5328cfd0.jpg"],[0,"NOTA ADHESIVA 3M 2051 CUBO 47X47 400H (X1)","83469","nota-adhesiva-3m-2051-cubo-47x47-400h-x1-6915d51d5752f.jpg"],[0,"NOTA ADHESIVA 3M 653 AMARILLO 38X50 (X12)","3226","nota-adhesiva-3m-653-amarillo-38x50-x12-6915d51dbb4d0.jpg"],[0,"NOTA ADHESIVA 3M 653-4N COLOR 35X48 (X4)","102204","nota-adhesiva-3m-653-4n-color-35x48-x4-6915d51e48cf3.jpg"],[0,"NOTA ADHESIVA 3M 653AN COLOR 35X48 (X12)","70513","nota-adhesiva-3m-653an-color-35x48-x12-6915d51e902f8.jpg"],[0,"NOTA ADHESIVA 3M 654 CLASICA 76X76 100H (X1)","69209","nota-adhesiva-3m-654-clasica-76x76-100h-x1-6915d51f00070.jpg"],[0,"NOTA ADHESIVA 3M 670-5 REGISTRO PAGINA 12X44M 500H (X1)","58849","nota-adhesiva-3m-670-5-registro-pagina-12x44m-500h-x1-6915d51f68723.jpg"],[0,"NOTA ADHESIVA 3M 680-1 BANDERA ROJO 2.5X4 (X1)","6652","nota-adhesiva-3m-680-1-bandera-rojo-25x4-x1-6915d51fcec7c.jpg"],[0,"NOTA ADHESIVA 3M 680-2 BANDERA AZUL 2.5X4 (X1)","66421","nota-adhesiva-3m-680-2-bandera-azul-25x4-x1-6915d5203f0de.jpg"],[0,"NOTA ADHESIVA 3M 680-3 BANDERA VERDE 2.5X4 (X1)","66522","nota-adhesiva-3m-680-3-bandera-verde-25x4-x1-6915d520a4739.jpg"],[0,"NOTA ADHESIVA 3M 680-4 BANDERA NARANJA 2.5X4 (X1)","6693","nota-adhesiva-3m-680-4-bandera-naranja-25x4-x1-6915d5223a2ab.jpg"],[0,"NOTA ADHESIVA 3M 680-5 BANDERA AMARILLA 2.5X4 (X1)","6697","nota-adhesiva-3m-680-5-bandera-amarilla-25x4-x1-6915d522a0364.jpg"],[0,"NOTA ADHESIVA 3M 686 INDEX 25X38 (X1)","94887","01KD5NR0YS4PCQ0C0WYBCN1ZRJ.jpg"],[0,"NOTA ADHESIVA 3M PAPELOGRAFO 63X77 30H (X1)","70726","nota-adhesiva-3m-papelografo-63x77-30h-x1-6915d52546d6f.jpg"],[0,"NOTA ADHESIVA 3M POP-UP 330 COLOR 76X76 (X1)","8326","nota-adhesiva-3m-pop-up-330-color-76x76-x1-6915d52592ca6.jpg"],[0,"NOTA ADHESIVA 3M POP-UP AMARILLA 100H (X1)","692093","nota-adhesiva-3m-pop-up-amarilla-100h-x1-6915d5262975a.jpg"],[0,"NOTA ADHESIVA BIG BOSS FLECHA 5 COLOR (X1)","684ARR1","01KD5N8GRVPYTZ0ZQ1DWTY6J36.jpg"],[0,"PAPELERO HAND REJILLA REDONDO 30CM NEGRO (X1)","847211","papelero-hand-rejilla-redondo-30cm-negro-x1-6915d4a31c3a6.jpg"],[0,"PEGAMENTO ADIX BARRA 20G (X1)","6510012","01KD5VTR40P9SA3K0WQ37D9V6B.jpg"],[0,"PEGAMENTO ADIX BARRA 36G (X1)","6510014","01KD5VXM2KMBWKJG0DNF8WZW0M.jpg"],[0,"PENDRIVE 32GB (X1)","5096","pendrive-sandisk-32gb-x1-6915d4a191717.jpg"],[0,"PENDRIVE SCANDISK-MAXELL 16GB (X1)","6610","pendrive-scandisk-16gb-x1-6915d4a2212da.jpg"],[0,"PERFORADORA RHEIN METALCA GRANDE NEGRO (X1)","366200","perforadora-rhein-metalca-grande-negro-x1-6915d52dc18bb.jpg"],[0,"PILA DURACELL AA (X1)","283804","pila-duracell-aa-x1-6915d52eba0b0.jpg"],[0,"PILA DURACELL AAA (X1)","283808","pila-duracell-aaa-x1-6915d52f49b29.jpg"],[0,"PORTA LAPIZ HAND REJILLA METAL (X1)","118125","porta-lapiz-hand-rejilla-metal-x1-6915d4a39fac3.jpg"],[0,"PORTAMINA PILOT SUPER GRIP NEGRO 0.5 (X1)","H185SLB","portamina-pilot-super-grip-negro-05-x1-6915d5302a029.jpg"],[0,"PORTAMINA PILOT SUPER GRIP NEGRO 0.7 (X1)","H187SLB","portamina-pilot-super-grip-negro-07-x1-6915d5306f652.jpg"],[0,"REGLA ACERO HAND 30CM (X1)","4176050","regla-acero-hand-30cm-x1-6915d530d58d4.jpg"],[0,"REGLA HAND 30CM (X1)","4152008","regla-hand-30cm-x1-6915d5316f4c3.jpg"],[0,"REGLA PROARTE 20CM (X1)","130710","regla-proarte-20cm-x1-6915d5312831a.jpg"],[0,"REGLA PROARTE 40CM (X1)","130737","regla-proarte-40cm-x1-6915d531b68ba.jpg"],[0,"REVISTERO HAND METALICO 1 NIVEL (X1)","603050","revistero-hand-metalico-1-nivel-x1-6915d532d1a61.jpg"],[0,"REVISTERO HAND METALICO 2 NIVELES (X1)","10031","revistero-hand-metalico-2-niveles-x1-6915d5337fd27.jpg"],[0,"REVISTERO HAND METALICO 3 NIVELES (X1)","603054","revistero-hand-metalico-3-niveles-x1-6915d53411156.jpg"],[0,"SACACORCHETE ADIX PALANCA NEGRO (X1)","AXSRL96B","sacacorchete-adix-palanca-negro-x1-6915d53480ab0.jpg"],[0,"SACACORCHETES ADIX PINZA NEGRO (X1)","AXSR80BB","sacacorchetes-adix-pinza-negro-x1-6915d534cb858.jpg"],[0,"SACAPUNTA ADIX CONTENEDOR COLOR (X1)","817586","sacapunta-adix-contenedor-color-x1-6915d5353ed49.jpg"],[0,"SACAPUNTA ADIX METALICO (X1)","AXMS1004","sacapunta-adix-metalico-x1-6915d53588957.jpg"],[0,"SEPARADOR DATA ZONE PLASTICO BLANCO 10 DIVISIONES A4 (X1)","10TBAW","separador-data-zone-plastico-blanco-10-divisiones-a4-x1-6915d5f65ab05.jpg"],[0,"SEPARADOR DATA ZONE PLASTICO BLANCO 10 DIVISIONES OFICIO (X1)","10TBFW","separador-data-zone-plastico-blanco-10-divisiones-oficio-x1-6915d5375a523.jpg"],[0,"SEPARADOR DATA ZONE PLASTICO BLANCO 5 DIVISIONES A4 (X1)","5TBAW","separador-data-zone-plastico-blanco-5-divisiones-a4-x1-6915d535f0256.jpg"],[0,"SEPARADOR DATA ZONE PLASTICO COLOR 5 DIVISIONES A4 (X1)","5TBA","separador-data-zone-plastico-color-5-divisiones-a4-x1-6915d536e39b0.jpg"],[0,"SEPARADOR JS CARTULINA A-Z CARTA (X1)","705","separador-js-cartulina-a-z-carta-x1-6915d539f354d.jpg"],[0,"SEPARADOR JS CARTULINA BLANCO 6 DIVISIONES CARTA (X1)","790","separador-js-cartulina-blanco-6-divisiones-carta-x1-6915d538143bb.jpg"],[0,"SEPARADOR JS CARTULINA BLANCO 6 DIVISIONES OFICIO (X1)","791","separador-js-cartulina-blanco-6-divisiones-oficio-x1-6915d538974af.jpg"],[0,"SEPARADOR JS CARTULINA COLOR 6 DIVISIONES CARTA (X1)","703","separador-js-cartulina-color-6-divisiones-carta-x1-6915d53aca7d9.jpg"],[0,"SEPARADOR JS CARTULINA COLOR 6 DIVISIONES OFICIO (X1)","7049","separador-js-cartulina-color-6-divisiones-oficio-x1-6915d53a837cd.jpg"],[0,"SEPARADOR JS CARTULINA MES CARTA (X1)","707","separador-js-cartulina-mes-carta-x1-6915d538dd13d.jpg"],[0,"SEPARADOR JS CARTULINA MES OFICIO (X1)","708","separador-js-cartulina-mes-oficio-x1-6915d53931f4c.jpg"],[0,"SEPARADOR RHEIN CARTULINA 6 DIVISIONES CARTA (X1)","312424","separador-rhein-cartulina-6-divisiones-carta-x1-6915d53b5b4c8.jpg"],[0,"SEPARADOR RHEIN CARTULINA 6 DIVISIONES OFICIO (X1)","312434","separador-rhein-cartulina-6-divisiones-oficio-x1-6915d53cea260.jpg"],[0,"SEPARADOR RHEIN VINIL 6 DIVISIONES OFICIO (X1)","312413","separador-rhein-vinil-6-divisiones-oficio-x1-6915d53d622ca.jpg"],[0,"SOBRES TEKNOFAS AMERICANO V 10X23 (X50)","219199","sobres-teknofas-americano-v-10x23-x50-6915d53e22f4f.jpg"],[0,"SOBRES TEKNOFAS OFICIO SACO 25X36 (X50)","219218","sobres-teknofas-oficio-saco-25x36-x50-6915d53ea9610.jpg"],[0,"SOBRES TEKNOFAS REVISTA SACO 23X30 (X50)","219222","sobres-teknofas-revista-saco-23x30-x50-6915d53f3a54e.jpg"],[0,"SOBRES TEKNOFAS UNIVERSAL SACO 30X40 (X50)","219190","sobres-teknofas-universal-saco-30x40-x50-6915d53f7f891.jpg"],[0,"TACO APUNTE JS 9X9 500H (X1)","6318","taco-apunte-js-9x9-500h-x1-6915d53fc67ae.jpg"],[0,"TAMPON ADIX HUELLA PEQUENO (X1)","7003","01KESGSN0AN0YFC2JDBDBX7EVW.jpg"],[0,"TAMPON HAND HUELLA PEQUENO (X1)","282107","tampon-hand-huella-pequeno-x1-6915d603a281f.jpg"],[0,"TIJERA ADIX 16CM (X1)","AXSC586","tijera-adix-16cm-x1-6915d54056464.jpg"],[0,"TIJERA RHEIN 16CM (X1)","366251","tijera-rhein-16cm-x1-6915d5412f6c0.jpg"],[0,"TIJERA RHEIN 21CM (X1)","366253","tijera-rhein-21cm-x1-6915d54226d41.jpg"],[0,"TIRITAS RHEIN COLORES SURTIDOS 250U (X1)","313320","tiritas-rhein-colores-surtidos-250u-x1-6915d4eadc8e7.jpg"],[0,"VISORES RHEIN PORTALEYENDA 50U (X1)","8122080","visores-rhein-portaleyenda-50u-x1-6915d4a8a67be.jpg"],[5,"PAPEL FOTOCOPIA EXCELLENT A4 75G 500H (X1)","628","01KD5SZ4GG2ABD5K0KTXX4QC60.jpg"],[5,"PAPEL FOTOCOPIA XEROX CARTA 75G 500H (X1)","70024","papel-fotocopia-xerox-carta-75g-500h-x1-6915d52a90842.jpg"],[5,"PAPEL FOTOCOPIA XEROX OFICIO 75G 500H (X1)","630","01KD5T75TJRQQ9CMC2Z6GBYPYS.jpg"]]};
+var KX={"dest":["81106","3312","311146","194433","2952","473","1101065","43100","43000","371025","40811","870009"],"nuevos":["5029","1002217","1473","16000","16008","1100777","1100745","870009","8062","40782","7003","1712","6510014","6510012","9226","42102","190164","SCAEFCDL","901173","328371","251433","250502","AXDC25","AXDC19"],"marcas":["Pilot","Adix","Rhein","Virutex","Costa","Watts","3M","Brillex","Coca-Cola","Cachantun","Bic","Elite","Lysoform","Nescafe","Isofit","Iansa","Colon","Winkler"],"kit":{"cafe":{"n":"Cafetería","i":[["12110498",0.2],["194433",0.2],["371025",0.1],["16008",0.4],["235",0.1],["854514",0.2]]},"aseo":{"n":"Aseo y baños","i":[["46225",0.1],["40811",0.3],["206866",0.1],["11000",0.1],["DPS7090",0.3],["290123",0.1],["604313",0.1]]},"escr":{"n":"Escritorio","i":[["70024",1.0],["1101065",0.5],["3226",0.1],["AXSHD2317",0.05],["603002",0.2],["AXMPC33100",0.1]]},"beb":{"n":"Bebidas y agua","i":[["2902",0.5],["4918",0.2]]}}};
+(function(){
+  var IMG='https://karry.cl/storage/productos/galeria/';
+  var FORM_ID='rH41iWqyFWus', FORM_ORIGIN='https://embed.fillout.com';
+  var P=KARRY.p, C=KARRY.c, PAGE=24;
+  var dl=window.dataLayer=window.dataLayer||[];
+  function $(id){return document.getElementById(id);}
+  function title(t){return t.toLowerCase().replace(/(^|\s|\()(\S)/g,function(m,a,b){return a+b.toUpperCase();});}
+  function norm(t){return t.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();}
+  function clp(n){return '$'+Math.round(n).toLocaleString('es-CL');}
+  var bySku={}; P.forEach(function(p){p.k=norm(p[1]+' '+p[2]);bySku[p[2]]=p;});
+  var NEW={},TOP={};KX.nuevos.forEach(function(s,i){NEW[s]=i+1;});KX.dest.forEach(function(s,i){TOP[s]=i+1;});
+  function store(k,v){try{if(v===undefined)return JSON.parse(localStorage.getItem(k)||'null');localStorage.setItem(k,JSON.stringify(v));}catch(e){return null;}}
+  var tt;function toast(m){var t=$('toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('show');},2200);}
+
+  /* ---------- Carrito ---------- */
+  var cart=store('karry_cart')||{};
+  function save(){store('karry_cart',cart);}
+  function keys(){return Object.keys(cart).filter(function(k){return bySku[k]||k.indexOf('x:')===0;});}
+  function total(){return keys().reduce(function(a,k){return a+cart[k];},0);}
+  function nameOf(k){return k.indexOf('x:')===0?k.slice(2):title(bySku[k][1]);}
+  function add(sku,n,silent){cart[sku]=(cart[sku]||0)+n;save();update(true);if(!silent)dl.push({event:'agregar_carrito',sku:sku,cantidad:n});}
+  function update(bump){var n=total();document.querySelectorAll('[data-cart-n]').forEach(function(e){e.textContent=n;if(bump){e.classList.remove('bump');void e.offsetWidth;e.classList.add('bump');}});$('fab').classList.toggle('show',n>0);}
+
+  /* ---------- Calculadora COI ---------- */
+  function calc(){
+    var q=+$('c-q').value,p=+$('c-p').value,c=+$('c-c').value;
+    $('v-q').textContent=q;$('v-p').textContent=p;$('v-c').textContent=clp(c);
+    var parts=[['Sobreprecio en compras de emergencia',q*c*0.30],['Tiempo de quien gestiona la compra',q*3*5500],['Equipo detenido esperando',q*p*1*9000],['Riesgo y urgencias',q*15000]];
+    var m=parts.reduce(function(a,x){return a+x[1];},0);
+    $('r-month').textContent=clp(m);$('r-year').textContent=clp(m*12);
+    var max=Math.max.apply(null,parts.map(function(x){return x[1];}))||1;
+    $('r-bars').innerHTML=parts.map(function(x){return '<div class="bar"><div class="t"><span>'+x[0]+'</span><span>'+clp(x[1]*12)+'/año</span></div><div class="b"><i style="width:'+(x[1]/max*100)+'%"></i></div></div>';}).join('');
+  }
+  ['c-q','c-p','c-c'].forEach(function(id){$(id).addEventListener('input',calc);});
+  var calcSent=false;$('c-q').addEventListener('change',function(){if(!calcSent){calcSent=true;dl.push({event:'usar_calculadora'});}});
+  calc();
+
+  /* ---------- Kit ---------- */
+  var areasOn={cafe:true,aseo:true,escr:true,beb:false};
+  var kEdit={},kOff={},kExtra={};   /* ajustes del usuario: cantidades editadas, quitados y agregados */
+  function kitBase(){var n=+$('k-r').value,out=[];Object.keys(KX.kit).forEach(function(a){if(!areasOn[a])return;KX.kit[a].i.forEach(function(it){out.push([it[0],Math.max(1,Math.ceil(n*it[1]))]);});});return out;}
+  function kitItems(){var seen={},out=[];kitBase().forEach(function(x){if(kOff[x[0]]||seen[x[0]])return;seen[x[0]]=1;out.push([x[0],kEdit[x[0]]||x[1],0]);});
+    Object.keys(kExtra).forEach(function(s){if(!seen[s]){seen[s]=1;out.push([s,kExtra[s],1]);}});return out;}
+  function setQ(s,isExtra,v){if(v<1){if(isExtra)delete kExtra[s];else kOff[s]=1;}else{if(isExtra)kExtra[s]=v;else kEdit[s]=v;}renderKit();}
+  function renderAreas(){var w=$('k-areas');w.innerHTML='';Object.keys(KX.kit).forEach(function(a){var b=document.createElement('button');b.type='button';b.className='area'+(areasOn[a]?' on':'');b.textContent=KX.kit[a].n;b.onclick=function(){areasOn[a]=!areasOn[a];renderAreas();renderKit();};w.appendChild(b);});}
+  function renderKit(){var n=+$('k-r').value;$('k-n').firstChild.nodeValue=n;$('k-t').textContent=n+' personas';
+    var it=kitItems();$('k-list').innerHTML=it.length?'':'<p class="sub">Elige un área o busca productos para agregar.</p>';
+    it.forEach(function(x){var p=bySku[x[0]],s=x[0],ex=x[2];var r=document.createElement('div');r.className='krow';
+      r.innerHTML='<img loading="lazy" src="'+IMG+p[3]+'" alt=""><div><b></b><small>SKU '+s+(ex?' · <em>agregado por ti</em>':'')+'</small><br><button type="button" class="krm">Quitar</button></div><div class="qty"><button type="button" aria-label="Menos">−</button><input type="number" min="0" value="'+x[1]+'" aria-label="Cantidad"><button type="button" aria-label="Más">+</button></div>';
+      r.querySelector('b').textContent=title(p[1]);var im=r.querySelector('img');im.onerror=function(){im.style.visibility='hidden';};
+      var b=r.querySelectorAll('.qty button'),i=r.querySelector('input');
+      b[0].onclick=function(){setQ(s,ex,x[1]-1);};b[1].onclick=function(){setQ(s,ex,x[1]+1);};
+      i.onchange=function(){setQ(s,ex,parseInt(i.value,10)||0);};
+      r.querySelector('.krm').onclick=function(){setQ(s,ex,0);};
+      $('k-list').appendChild(r);});
+    var adj=Object.keys(kEdit).length+Object.keys(kOff).length+Object.keys(kExtra).length;$('k-reset').style.display=adj?'inline':'none';
+    $('k-sum').textContent=it.length+' productos · '+it.reduce(function(a,x){return a+x[1];},0)+' unidades al mes';$('k-add').disabled=!it.length;}
+  $('k-r').addEventListener('input',renderKit);
+  $('k-reset').onclick=function(){kEdit={};kOff={};kExtra={};renderKit();};
+  /* Buscador para sumar productos al kit */
+  var kq=$('k-q'),kres=$('k-res');
+  kq.addEventListener('input',function(){var t=norm(kq.value.trim());kres.innerHTML='';if(t.length<2){kres.classList.remove('open');return;}
+    var m=P.filter(function(p){return t.split(/\s+/).every(function(w){return p.k.indexOf(w)>=0;});}).slice(0,7);
+    if(!m.length){kres.innerHTML='<div class="kr0">Sin resultados. Puedes pedirlo igual desde el catálogo.</div>';}
+    m.forEach(function(p){var b=document.createElement('button');b.type='button';b.innerHTML='<img src="'+IMG+p[3]+'" alt=""><span></span><b>+ Agregar</b>';b.querySelector('span').textContent=title(p[1]);
+      var im=b.querySelector('img');im.onerror=function(){im.style.visibility='hidden';};
+      b.onclick=function(){delete kOff[p[2]];if(!kitBase().some(function(x){return x[0]===p[2];}))kExtra[p[2]]=(kExtra[p[2]]||0)+1;else kEdit[p[2]]=(kEdit[p[2]]||kitBase().filter(function(x){return x[0]===p[2];})[0][1])+1;
+        kq.value='';kres.innerHTML='';kres.classList.remove('open');renderKit();toast('✓ '+title(p[1])+' sumado al kit');};kres.appendChild(b);});
+    kres.classList.add('open');});
+  document.addEventListener('click',function(e){if(!e.target.closest('.kfind'))kres.classList.remove('open');});
+  $('k-add').onclick=function(){var it=kitItems();it.forEach(function(x){add(x[0],x[1],true);});$('fijo').checked=true;store('karry_fijo',true);
+    dl.push({event:'agregar_kit',personas:+$('k-r').value,productos:it.length});toast('✓ Kit agregado a tu pedido ('+it.length+' productos)');setTimeout(openCart,500);};
+  renderAreas();renderKit();
+
+  /* ---------- Catálogo ---------- */
+  var view='todos',cat=-1,q='',shown=PAGE,brand='';
+  var TABS=[['dest','Destacados'],['nuevos','Nuevos'],['todos','Todos']];
+  function renderTabs(){var w=$('tabs');w.innerHTML='';TABS.forEach(function(t){var b=document.createElement('button');b.type='button';b.className='tab'+(view===t[0]?' on':'');b.innerHTML=(t[0]==='nuevos'?'<span class="dot"></span>':'')+t[1];b.onclick=function(){view=t[0];shown=PAGE;renderTabs();render();};w.appendChild(b);});}
+  function chip(i,label,n){var b=document.createElement('button');b.type='button';b.className='chip'+(i===cat?' on':'');b.innerHTML=label+' <small>'+n+'</small>';b.onclick=function(){cat=i;shown=PAGE;renderChips();render();};return b;}
+  function renderChips(){var w=$('chips');w.innerHTML='';w.appendChild(chip(-1,'Todas',P.length));C.forEach(function(c,i){w.appendChild(chip(i,title(c),P.filter(function(p){return p[0]===i;}).length));});}
+  KX.marcas.forEach(function(m){var b=document.createElement('button');b.type='button';b.className='brand';b.textContent=m;b.onclick=function(){var on=brand===m;brand=on?'':m;document.querySelectorAll('.brand').forEach(function(x){x.classList.toggle('on',!on&&x===b);});$('q').value=brand;q=brand;shown=PAGE;if(!on)view='todos';renderTabs();render();};$('brands').appendChild(b);});
+  function list(){var t=norm(q.trim()),src=P;
+    if(view==='dest')src=KX.dest.map(function(s){return bySku[s];});
+    if(view==='nuevos')src=KX.nuevos.map(function(s){return bySku[s];});
+    return src.filter(function(p){return p&&(cat<0||p[0]===cat)&&(!t||t.split(/\s+/).every(function(w){return p.k.indexOf(w)>=0;}));});}
+  function card(p){
+    var d=document.createElement('div');d.className='prod';
+    var rib=NEW[p[2]]?'<span class="ribbon new">Nuevo</span>':(TOP[p[2]]?'<span class="ribbon top">Destacado</span>':'');
+    d.innerHTML=rib+'<div class="ph"><img loading="lazy" src="'+IMG+p[3]+'" alt=""></div><h4></h4><span class="sku">SKU '+p[2]+'</span>'+
+      '<div class="row"><div class="qty"><button type="button" aria-label="Menos">−</button><input type="number" min="1" value="1" aria-label="Cantidad"><button type="button" aria-label="Más">+</button></div><button type="button" class="add">Agregar</button></div>';
+    d.querySelector('h4').textContent=title(p[1]);
+    var img=d.querySelector('img');img.onerror=function(){img.style.visibility='hidden';};
+    var inp=d.querySelector('input'),bs=d.querySelectorAll('.qty button'),ab=d.querySelector('.add');
+    bs[0].onclick=function(){inp.value=Math.max(1,(+inp.value||1)-1);};
+    bs[1].onclick=function(){inp.value=(+inp.value||0)+1;};
+    ab.onclick=function(){var n=Math.max(1,parseInt(inp.value,10)||1);add(p[2],n);ab.textContent='✓ Agregado';ab.classList.add('ok');setTimeout(function(){ab.textContent='Agregar';ab.classList.remove('ok');},1300);inp.value=1;};
+    return d;
+  }
+  function askBox(){var d=document.createElement('div');d.className='ask';
+    d.innerHTML='<h3>¿No encuentras lo que buscas?</h3><p>Si no lo tenemos, lo conseguimos. Escríbelo y lo sumamos a tu pedido.</p><form><input type="text" placeholder="Ej: tóner HP 85A, 3 cajas" aria-label="Producto que necesitas" required><button class="btn btn-red" type="submit">Agregar al pedido</button></form>';
+    var inp=d.querySelector('input');if(q)inp.value=q;
+    d.querySelector('form').onsubmit=function(e){e.preventDefault();var v=inp.value.trim();if(!v)return;add('x:'+v,1,true);dl.push({event:'pedido_especial'});toast('✓ "'+v+'" agregado a tu pedido');inp.value='';};
+    return d;}
+  function render(){var r=list(),g=$('grid');g.innerHTML='';
+    r.slice(0,shown).forEach(function(p){g.appendChild(card(p));});
+    if(!r.length||(q&&r.length<=shown))g.appendChild(askBox());
+    $('count').textContent=r.length?('Mostrando '+Math.min(shown,r.length)+' de '+r.length+' productos'):'Sin resultados para "'+q+'"';
+    $('more').style.display=r.length>shown?'block':'none';}
+  $('more').onclick=function(){shown+=PAGE;render();};
+  var tmr;$('q').addEventListener('input',function(e){clearTimeout(tmr);tmr=setTimeout(function(){q=e.target.value;brand='';document.querySelectorAll('.brand').forEach(function(x){x.classList.remove('on');});shown=PAGE;if(q)view='todos';renderTabs();render();},160);});
+
+  /* Recompra */
+  var last=store('karry_last');
+  function showReorder(){if(last&&Object.keys(last).length&&!total()){$('reorder-t').textContent=Object.keys(last).length+' productos';$('reorder').classList.add('show');}else $('reorder').classList.remove('show');}
+  $('reorder-b').onclick=function(){Object.keys(last).forEach(function(k){add(k,last[k],true);});dl.push({event:'recompra'});showReorder();openCart();};
+
+  /* ---------- Drawer ---------- */
+  function openCart(){renderCart();$('drawer').classList.add('open');$('overlay').classList.add('open');}
+  function closeCart(){$('drawer').classList.remove('open');$('overlay').classList.remove('open');}
+  document.querySelectorAll('[data-open-cart]').forEach(function(b){b.onclick=openCart;});
+  $('close').onclick=closeCart;$('overlay').onclick=closeCart;
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')closeCart();});
+  $('fijo').checked=!!store('karry_fijo');$('fijo').onchange=function(){store('karry_fijo',this.checked);};
+  function renderCart(){var l=$('dlist');l.innerHTML='';var ks=keys();
+    $('checkout').disabled=!ks.length;$('checkout').style.opacity=ks.length?1:.5;
+    if(!ks.length){l.innerHTML='<div class="dempty">Tu pedido está vacío.<br>Agrega productos desde el catálogo o arma tu kit.</div>';return;}
+    ks.forEach(function(k){var p=bySku[k],r=document.createElement('div');r.className='ci';
+      r.innerHTML=(p?'<img src="'+IMG+p[3]+'" alt="">':'<div class="ph0">✨</div>')+'<div><b></b><small>'+(p?'SKU '+k:'Pedido especial')+'</small><br><button type="button" class="rm">Quitar</button></div><div class="qty"><button type="button" aria-label="Menos">−</button><input type="number" min="1" value="'+cart[k]+'" aria-label="Cantidad"><button type="button" aria-label="Más">+</button></div>';
+      r.querySelector('b').textContent=nameOf(k);
+      var ii=r.querySelector('img');if(ii)ii.onerror=function(){ii.style.visibility='hidden';};
+      var i=r.querySelector('input'),b=r.querySelectorAll('.qty button');
+      b[0].onclick=function(){if(cart[k]>1){cart[k]--;save();update();renderCart();}};
+      b[1].onclick=function(){cart[k]++;save();update();renderCart();};
+      i.onchange=function(){cart[k]=Math.max(1,parseInt(i.value,10)||1);save();update();renderCart();};
+      r.querySelector('.rm').onclick=function(){delete cart[k];save();update();renderCart();showReorder();};
+      l.appendChild(r);});}
+
+  /* ---------- Formulario Fillout (iframe propio para adjuntar el pedido) ---------- */
+  var embedId;
+  function pedidoTxt(){var t=keys().map(function(k){return cart[k]+' x '+(bySku[k]?bySku[k][1]+' (SKU '+k+')':'[ESPECIAL] '+k.slice(2));}).join(' | ');return ($('fijo').checked?'[PEDIDO FIJO MENSUAL] ':'')+t;}
+  function mountForm(withPedido){
+    embedId=String(Math.floor(1e13+Math.random()*9e13));
+    var u=new URL(FORM_ORIGIN+'/t/'+FORM_ID);
+    new URLSearchParams(location.search).forEach(function(v,k){u.searchParams.set(k,v);});
+    if(withPedido){var t=pedidoTxt();if(t.length>1800)t=t.slice(0,1800)+'...';u.searchParams.set('pedido',t);}
+    u.searchParams.set('fillout-embed-id',embedId);
+    u.searchParams.set('fillout-embed-dynamic-resize','true');
+    $('form-box').innerHTML='<iframe title="Formulario de cotización Karry" src="'+u.toString()+'"></iframe>';
+  }
+  $('checkout').onclick=function(){
+    var n=keys().length;
+    dl.push({event:'solicitar_cotizacion',productos:n,unidades:total(),pedido_fijo:$('fijo').checked});
+    mountForm(true);
+    $('pedido-note').innerHTML='Tu pedido de <b>'+n+' producto'+(n>1?'s':'')+'</b> ('+total()+' unidades'+($('fijo').checked?', <b>repetición mensual</b>':'')+') se adjunta a esta solicitud. Completa tus datos y te enviamos la cotización.';
+    $('pedido-note').classList.add('show');
+    closeCart();$('formulario').scrollIntoView({behavior:'smooth'});
+  };
+
+  /* Conversión: Fillout avisa el envío con postMessage (type: form_submit) y lo pasamos a GTM */
+  var enviado=false;
+  window.addEventListener('message',function(e){
+    if(!e.data||(e.origin.indexOf('fillout.com')<0&&e.origin.indexOf('zite.com')<0))return;
+    if(e.data.embedId&&e.data.embedId!==embedId)return;
+    if(e.data.type==='form_resized'&&typeof e.data.size==='number'){var f=$('form-box').querySelector('iframe');if(f)f.style.height=e.data.size+'px';}
+    if(e.data.type==='form_submit'&&!enviado){enviado=true;
+      dl.push({event:'lead_enviado',form_name:'catalogo_karry',productos:keys().length});
+      if(keys().length){last={};keys().forEach(function(k){last[k]=cart[k];});store('karry_last',last);cart={};save();update();$('pedido-note').classList.remove('show');}}
+  });
+
+  renderTabs();renderChips();render();update();showReorder();mountForm(keys().length>0);
+})();
+</script>
+</body>
+</html>
